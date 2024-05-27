@@ -163,6 +163,8 @@ live2d:
 #    opacityDefault: 0.9 # 默认透明度
 #    opacityOnHover: 0.5 # 鼠标移上透明度
 #
+busuanzi_count:
+  enable: true
 # 20200610
 plugins:
   hexo-reference
