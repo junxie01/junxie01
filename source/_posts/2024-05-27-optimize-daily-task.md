@@ -7,6 +7,8 @@ tags:
 ---
 
 转载自[少数派](https://sspai.com/post/87071)
+<!-- less -->
+
 ## 任务管理很难
 关键：Keep It Simple and Stupid.
 任务管理是决定什么时候应该做什么事。这么一个看似简单的问题，却难以找到最优解。
