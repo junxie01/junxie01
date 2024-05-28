@@ -1,7 +1,8 @@
 ---
 title: Hexo添加字数统计
 abbrlink: '986e5406'
-categories: web
+categories: 
+   - web
 date: 2024-05-27 16:50:09
 tags:
     - hexo
