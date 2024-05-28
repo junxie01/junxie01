@@ -126,10 +126,10 @@ feed:
 
 # 20200609
 search:
-path: search.xml
-field: post
-format: html
-limit: 10000
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
 
 #20200611
 # Google AdSense
