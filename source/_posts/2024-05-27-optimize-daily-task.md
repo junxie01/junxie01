@@ -1,8 +1,9 @@
 ---
-title: optimize_daily_task
+title: 任务管理
 abbrlink: 7aa0f828
 date: 2024-05-27 20:29:06
 tags:
+   - 学习
 ---
 
 转载自[少数派](https://sspai.com/post/87071)
