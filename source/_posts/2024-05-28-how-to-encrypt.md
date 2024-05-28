@@ -1,6 +1,10 @@
 ---
 title: hexo 如何给文章设密码
-tags: '-- web'
+categories:
+  - web
+tags: 
+  - web
+  - hexo
 abbrlink: 7c8ba603
 date: 2024-05-28 14:15:34
 ---

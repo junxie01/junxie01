@@ -1,5 +1,7 @@
 ---
 title: 如何学习 
+categories:
+  - 学习
 tags:
   - 学习
 abbrlink: 666d8748

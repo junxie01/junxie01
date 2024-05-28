@@ -1,7 +1,10 @@
 ---
 title: hexo如何给文章加框
+categories:
+  - web
 tags:
   - hexo
+  - web
 abbrlink: 43f10f83
 date: 2024-05-28 15:25:54
 ---

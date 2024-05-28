@@ -1,9 +1,10 @@
 ---
 title: Hexo next 使用utterances评论
-catagorious:
+categories:
   - web
 tags:
   - web
+  - hexo
 abbrlink: 8d4b165c
 date: 2024-05-28 19:25:39
 ---
