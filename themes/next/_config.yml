@@ -279,7 +279,7 @@ tag_icon: false
 # Front-matter variable (nonsupport animation).
 reward_settings:
   # If true, a donate button will be displayed in every article by default.
-  enable: false
+  enable: true
   animation: false
   comment: 有疑问或建议请发邮件到junxie01@gmail.com。
 
