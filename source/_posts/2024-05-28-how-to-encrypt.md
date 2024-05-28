@@ -22,3 +22,10 @@ encrypt:
 password: xxxxx
 message: 输入密码的提示。
 ```
+高级设置：
+```
+password: xxxx
+abstract: here is something encrypted
+message: 请输入密码。
+wrong_pass_message: Oh, wrong password, please try again.
+```
