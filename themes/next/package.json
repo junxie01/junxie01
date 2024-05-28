@@ -42,5 +42,8 @@
     "mocha": "10.4.0",
     "stylelint": "16.4.0",
     "stylelint-stylus": "1.0.0"
+  },
+  "dependencies": {
+    "@waline/hexo-next": "^3.0.1"
   }
 }
