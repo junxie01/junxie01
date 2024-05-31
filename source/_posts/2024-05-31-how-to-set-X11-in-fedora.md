@@ -16,3 +16,4 @@ DefaultSession=gnome-xorg.desktop
 ```
   然后重新登陆就发现Settings->about显示Windowing System X11了。
 不过靠不靠谱还不知道，还没有将remote station修改成X11。
+  不过切换成X11以后bilibili视频似乎看不了了。连自己电脑中的mp4视频也播放不了。x11落后了？
