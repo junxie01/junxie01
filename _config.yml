@@ -11,7 +11,7 @@ author: Jun Xie
 language: 
   - zh-CN
 #  - en
-timezone: ''
+timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -175,6 +175,8 @@ baidusitemap:
   path: baidusitemap.xml
 sitemap:
   path: sitemap.xml
+  tag: false
+  category: false
 # 20200610
 # hexo-tag-cloud
 #tag_cloud:
@@ -204,3 +206,7 @@ symbols_count_time:
   exclude_codeblock: false     # 排除代码字数统计
 encrypt:
   enable: true
+#20240604
+nofollow:
+  enable: true
+  field: site
