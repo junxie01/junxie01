@@ -330,8 +330,8 @@ tagcloud:
   start: "#ccc" # Start color (hex, rgba, hsla or color keywords)
   end: "#111" # End color (hex, rgba, hsla or color keywords)
   amount: 200 # Total amount of tags
-  #  orderby: name # Order of tags
-  #  order: 1 # Sort order
+  orderby: name # Order of tags
+  order: 1 # Sort order
 
 # Google Calendar
 # Share your recent schedule to others via calendar page.
