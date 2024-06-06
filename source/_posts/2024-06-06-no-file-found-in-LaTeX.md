@@ -1,5 +1,5 @@
 ---
-title: 运行LaTeX 遇到 \! LaTeX Error\: File \`xxx\' not found.
+title: '运行LaTeX 遇到 ! LaTeX Error: File `xxx' not found.'
 date: 2024-06-06 10:26:10
 categories:
   - Linux
