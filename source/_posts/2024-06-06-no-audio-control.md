@@ -21,7 +21,18 @@ lirc=no
 ```
 然后还是播放不了，出现问题：
 ```
+MPlayer SVN-r38423-13 (C) 2000-2023 MPlayer Team
+
+Playing let_it_go_original.mp4.
+libavformat version 58.76.100 (external)
+libavformat file format detected.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7f6043a46660]Protocol name not provided, cannot determine if input is local or a network protocol, buffers and access patterns cannot be configured optimally without knowing the protocol
+[lavf] stream 0: video (h264), -vid 0
+[lavf] stream 1: audio (aac), -aid 0, -alang und
+VIDEO:  [H264]  1280x720  24bpp  24.000 fps  1593.8 kbps (194.5 kbyte/s)
 X11 error: BadMatch (invalid parameter attributes)
 Failed to open VDPAU backend libvdpau_nvidia.so: cannot open shared object file: No such file or directory
+[vdpau] Error when calling vdp_device_create_x11: 1
+
 ```
-然后目前还没搞定。
+然后目前还没搞定。不知哪位大神能帮忙啊。
