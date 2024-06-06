@@ -12,4 +12,9 @@ date: 2024-06-06 12:29:49
 ```
 systemctl --user stop wireplumber
 ```
-关掉了wireplumber以后mplayer和浏览器上都能正常播放了。
+关掉了wireplumber以后mplayer和浏览器上都能正常播放了。但每次重启都得运行一次。多麻烦呀。
+然后
+```
+sudo dnf install --allowerasing pipewire-pulseaudio
+```
+就可以了。
