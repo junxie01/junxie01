@@ -2,7 +2,10 @@
 title: 如何让大脑保持敏锐？
 abbrlink: 858f56c0
 date: 2024-06-14 19:55:58
+categories:
+  - 学习
 tags:
+  - 大脑
 ---
 &emsp;&emsp;如何让你的大脑保持年轻敏锐。
 <!--less-->
