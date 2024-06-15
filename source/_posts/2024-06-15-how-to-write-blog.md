@@ -1,5 +1,5 @@
 ---
-title: 如何写博文
+title: 写作能力提升技巧
 categories:
   - 学习
 tags:
