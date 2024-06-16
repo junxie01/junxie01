@@ -17,6 +17,7 @@
     "hexo-abbrlink": "^2.2.1",
     "hexo-blog-encrypt": "^3.1.9",
     "hexo-deployer-git": "^4.0.0",
+    "hexo-filter-mathjax": "^0.9.0",
     "hexo-filter-nofollow": "^2.0.2",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-baidu-sitemap": "^0.1.9",
@@ -37,6 +38,7 @@
     "hexo-renderer-stylus": "^3.0.0",
     "hexo-server": "^3.0.0",
     "hexo-symbols-count-time": "^0.6.2",
+    "hexo-tag-aplayer": "^3.0.4",
     "hexo-tag-cloud": "^2.1.2",
     "hexo-theme-landscape": "^1.0.0",
     "hexo-theme-next": "^8.20.0"

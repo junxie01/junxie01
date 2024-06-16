@@ -303,7 +303,7 @@ follow_me:
 # Dependencies: https://github.com/sergeyzwezdin/hexo-related-posts
 rss: /atom.xml
 related_posts:
-  enable: false
+  enable: true
   icon: fa fa-signs-post
 
 # Post edit
@@ -581,7 +581,7 @@ math:
   every_page: false
 
   mathjax:
-    enable: false
+    enable: true
     # Available values: none | ams | all
     tags: none
 
