@@ -7,7 +7,7 @@ tags:
 abbrlink: 4f7661bb
 date: 2024-06-15 08:51:55
 ---
-[Repeated Tidally Induced Hydrofracture of a Supraglacial Lake at the Amery Ice Shelf Grounding Zone](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021GL095661?af=R)
+&emsp;&emsp;[Repeated Tidally Induced Hydrofracture of a Supraglacial Lake at the Amery Ice Shelf Grounding Zone](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021GL095661?af=R)
 <!--less-->
 ### 摘要
 南极冰架上的表面融化和湖泊是常见的现象，它们的存在和排水被认为是冰架崩塌的前兆。在这里，我们展示了2014年至2020年间，东南极Amery冰架接地区一个表冰湖反复快速排水的卫星观测结果。2018年排水后的图像显示了湖底特征，这些特征是快速垂直湖排水的特征。观测到的湖体积表明，排水与一个阈值的融水体积无关。相反，排水通常与日潮汐幅度高的时期一致，这表明水力断裂是由冰架接地区固有的潮汐力引起的冰的弯曲所协助的。结合在Amery冰架接地区广泛观测到的湖泊排水，这些发现表明，尽管这些地区普遍存在增强的融化，但接地区的排水事件可能抑制了冰架融水的积累，从而代表了一种潜在的稳定机制。
