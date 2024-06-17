@@ -8,6 +8,7 @@ abbrlink: 6dd5228d
 date: 2024-06-17 16:24:45
 ---
 &emsp;&emsp;[Mapping Glacier Structure in Inaccessible Areas From Turning Seismic Sources Into a Dense Seismic Array](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023GL108058?af=R)
+<!--less-->
 ### 摘要
 
 了解冰川结构的异质性对于评估其命运至关重要。然而，结构变化强烈的地方，如裂缝场，通常无法直接进行仪器观测。为了克服这一限制，我们引入了一种创新技术，利用源-接收器空间互易原理，将由裂缝产生的地震源转化为虚拟接收器。我们展示了利用Seismic Michelson Interferometry（地震干涉测量学）技术，通过局部化良好的地震源之间的相位干涉模式来获取相位速度图。得到的相位速度对冰川结构的变化表现出敏感性，提供了对机械属性变化起源的洞见，并且空间分辨率比传统方法提高了五倍。特别是，我们观察到与严重受损的地下区域相关的相位速度的急剧变化，表明了一个复杂的三维介质。更系统地应用这种方法并在其他情境中使用将提高我们对冰川和其他地震发生环境结构的理解。
