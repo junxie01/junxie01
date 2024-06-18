@@ -7,9 +7,10 @@ tags:
 abbrlink: e0732b91
 date: 2024-06-18 14:21:16
 ---
-&emsp;&emsp;[Abundant Spontaneous and Dynamically Triggered Submarine Landslides in the Gulf of Mexico](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2020GL087213?af=R)
 
+&emsp;&emsp;[Abundant Spontaneous and Dynamically Triggered Submarine Landslides in the Gulf of Mexico](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2020GL087213?af=R)
 <!--less-->
+
 ### 摘要
 
 &emsp;&emsp;墨西哥湾近海发生的海底滑坡在美国大陆边缘很常见。这些大规模的土体流失事件可能引发海啸，因此可能对沿海社区和海上基础设施造成严重破坏。然而，海底滑坡的启动和失效过程了解甚少。在这里，我们通过2008年至2015年的数据，识别并定位了墨西哥湾85个以前未知的海底滑坡。其中10个滑坡自发发生，其余75个由远处地震产生的地震面波动态触发，这些地震的震级低至约5级。我们的观察表明，在墨西哥湾存在持续的海底滑坡活动，那里有密集的能源行业基础设施，并且该地区容易受到次生地震灾害的威胁，尽管当地的地震活动率很低。我们的结果应该有助于未来的调查，以识别不稳定的海上斜坡，阐明滑坡的动态过程，也许可以在海啸预警系统中应用远程检测技术。
