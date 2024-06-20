@@ -1,5 +1,5 @@
 ---
-title: paper-reading-12
+title: 文献阅读（十二）
 abbrlink: a235e3ec
 date: 2024-06-20 08:09:35
 tags:
@@ -7,7 +7,7 @@ tags:
 &emsp;&emsp;[Early Holocene Greenland-ice mass loss likely triggered earthquakes and tsunami](https://www.sciencedirect.com/science/article/pii/S0012821X20303873?dgcid=rss_sd_all)
 <!--less-->
 
-### 摘要翻译
+### 摘要
 
 &emsp;&emsp;由于冰盖质量巨大，会在地球地壳中引起显著的应力。研究表明，在北欧的某些地区，冰川消融过程中的应力释放可以触发大地震。尽管已经在北欧分析了冰川引起的应力，但尚未对格陵兰进行分析。我们知道格陵兰冰盖在早期全新世经历了一个大规模的融化期，我们首次分析了格陵兰在冰川消融期间的冰川诱发应力变化。结合历史海平面指标和冰川诱发断层重新激活模型的综合分析表明，大约10,600年前，格陵兰冰盖的消融可能导致了一次大地震或一系列较小震级地震。地震可能使相对海平面观测值发生了数米的偏移。地震引发的应力释放是在单一事件中产生的，它可能在北大西洋产生了高达7.2米的英国群岛上岸高度和高达7.8米的加拿大沿岸海啸。
 
