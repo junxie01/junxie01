@@ -2,7 +2,10 @@
 title: 文献阅读（十二）
 abbrlink: a235e3ec
 date: 2024-06-20 08:09:35
+categories:
+  - work
 tags:
+  - paper
 ---
 &emsp;&emsp;[Early Holocene Greenland-ice mass loss likely triggered earthquakes and tsunami](https://www.sciencedirect.com/science/article/pii/S0012821X20303873?dgcid=rss_sd_all)
 <!--less-->
