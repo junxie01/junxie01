@@ -1,5 +1,5 @@
 ---
-title: 那里去了解科学研究趋势
+title: 哪里去了解科学研究趋势
 categories:
   - work
 tags:
