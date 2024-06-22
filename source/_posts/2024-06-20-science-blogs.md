@@ -15,7 +15,7 @@ date: 2024-06-20 14:25:21
 那有没有简单的方法呢？自然是有的。你需要RSS(Really Simple Syndication)，他是一种描述和同步网站内容的格式。找一个你喜欢的RSS工具。然后在里面订阅不同网站的RSS源，然后她会定时推送新的内容给你。RSS源一般在每个期刊主页都可以找到。你可以在一个地方坐拥万千稿件和信息。每天点开打卡，审批奏折。
 以前我用的是google reader，后来不对咱开放了，然后换到feedly。结果后来又封了。试了很多rss工具，都不太喜欢。最后用的是[FreshRSS](https://rss.othing.xyz/)，好像是一个小朋友整的个人网站。界面很简洁，是我的风格。
 2. 除了自己去读期刊发表的相关研究，自然可以请别人帮你读。哪里去找呢？我找到了这个几个：
- - [Science blogs](https://www.science.org/blogs)
+ - [Science blogs1](https://www.science.org/blogs)，[Science blogs2](https://scienceblogs.com/)
  - [Nature blogs](https://blogs.nature.com/) Nature的博客。但感觉不怎更新了。
  - [phys.org](https://phys.org/)这里更多的是物理学领域的内容。
  - [NASA blogs](https://blogs.nasa.gov/)
