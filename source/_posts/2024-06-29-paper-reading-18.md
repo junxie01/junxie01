@@ -8,6 +8,7 @@ abbrlink: 7355ba2d
 date: 2024-06-29 10:52:56
 ---
 &emsp;&emsp;[Ross Ice Shelf Icequakes Associated With Ocean Gravity Wave Activity](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019GL084123)
+<!--less-->
 ### 摘要
 
 &emsp;&emsp;罗斯冰架上的冰震活动与海洋重力波活动的振幅有关。在罗斯冰架上部署的宽带地震仪，辅以近冰前海底水听器，确立了强烈的冰震活动与低于0.04赫兹的海洋重力波幅度（AG）之间的关联。罗斯冰架前沿的地震垂直位移幅度（ASV）与AG有很好的相关性，从而可以估计从重力波幅度到冰前垂直位移幅度（TGSV(f)）的频率依赖传递函数。TGSV(f)在0.001–0.01赫兹时为0.6–0.7，但在更高频率时迅速减小。强烈的冰震活动在空间上和季节上与不同的重力波频段有关，最强的冰震主要在南半球夏季观测到，那时海冰最少，涌浪的冲击最强。
