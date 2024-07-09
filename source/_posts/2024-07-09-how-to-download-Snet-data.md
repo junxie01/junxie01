@@ -25,7 +25,7 @@ make
 ```
 把catwin32.src/catwin32和win2sac.src/win2sac_32拷贝到环境变量认识的位置。
 ### 运行
-我想要下载连续数据，所以写了个循环脚本，如下：
+&emsp;&emsp;具体怎么下载数据自己去看说明就好了。我想要下载连续数据，所以写了个循环脚本，如下：
 ```
 import os
 from HinetPy import Client
