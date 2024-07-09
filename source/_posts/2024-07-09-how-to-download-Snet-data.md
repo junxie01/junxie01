@@ -34,11 +34,10 @@ from datetime import datetime,timedelta
 
 client = Client ("xxxx","xxxx")
 # 这里输入你自己的账号和密码。自己申请就好了。
-endtime=datetime(2016,8,16,2,0)
-time=datetime(2016,8,16,1,40)
-dt=timedelta(minutes=20)
-dir="data"
-# 数据存在dir下面
+endtime=datetime(2016,8,16,2,0) # 截至时间
+time=datetime(2016,8,16,1,40)   # 开始时间
+dt=timedelta(minutes=20)        # 时间增量（分钟记）
+dir="data"                      # 数据存在dir下面
 while (time<endtime):
     print(time,endtime)
     y="%04d"%time.year
@@ -52,12 +51,12 @@ while (time<endtime):
     data=dir+"/"+y+"_"+m+"_"+d+"_"+h+"_"+mm+".cnt"
     ctable=dir+"/"+y+"_"+m+"_"+d+"_"+h+"_"+mm+".ch"
     if not os.path.exists(ctable):
-        # 如果仪器信息文件没有则创建一个空的，这样做可以多跑几个进行，同时下载，并保证不重复。
+        # 如果仪器信息文件没有则创建一个空的，这样做可以多跑几个进程，同时下载，并保证不重复。
         with open(ctable, 'w') as file:
             pass
-        dat,ctabl = client.get_continuous_waveform("0120",time,20,data=name,ctable=cname,outdir=dir)
+        dat,ctabl = client.get_continuous_waveform("0120",time,20,data=name,ctable=cname,outdir=dir) # 下载数据，这里0120就是指代S-net。client.info()可以查看所有台网。 outdir指定保存数据的文件夹。
         if os.access(data, os.F_OK):
-        # 如果下载成功则进行解压。如果没有数据，强行进行解压，程序就跳出来了。
+        # 如果下载成功则进行解压。如果没有数据，强行进行解压，程序就出错跳出来。
         #if os.path.getsize(data) != 0:
             win32.extract_sac(data,ctable,outdir=outd) #解压sac。
             win32.extract_sacpz(ctable, outdir=outd) #解压仪器响应。
