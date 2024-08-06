@@ -24,5 +24,11 @@ date: 2024-06-20 14:25:21
  - [The planetary socity](https://www.planetary.org/articles)
  - [Science Friday](https://www.sciencefriday.com/series/educator-collaborative/)
  - [科学网](https://blog.sciencenet.cn/blog.php)这里有好多熟人，名人，新论文，博客等。
+ - [Berkeley Seismology Lab](https://www.seismo.berkeley.edu/blog/index.html)
+ - [PNSN](https://www.pnsn.org/blog)
+ - [Landslide blog](https://eos.org/landslide-blog)
+ - [Geospace](https://blogs.agu.org/geospace)
+ - [EarthObservatory](https://earthobservatory.nasa.gov/blogs/)
+ - [Volcanodiscovery](https://www.volcanodiscovery.com/earthquakes/news.html)
 3. 开会。多开会，你会看到一手的研究，见到你读到的文章的作者，你的idol，你的网友，审你稿件的大小牛，甚至你的未来老板，好友等等。多开会，你会有非常多的视角，兼听则明。
 4. 多和课题组，实验室的同学，学长，学姐，老师交流。你以为的问题，有时可能就不是问题。
