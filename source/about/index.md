@@ -23,7 +23,7 @@ comments: false
 38, 危自根, 储日升, 谢军等, (2024), 当阳复向斜页岩气探测区地壳结构及其构造暗示, 地球物理学报, 67(8).
 37, Jun Xie, Xiangfang Zeng, Chao Liang, et al., (2024), Ice plate deformation and cracking revealed by an in situ-distributed acoustic sensing array, The Cryosphere, 18(2): 837-847. 
 36, AG Osotuyi, Sidao Ni, Jiajun Chong, et al., (2023), Seismometer orientation correction via teleseismic receiver function measurements in West Africa and adjacent Islands, Seismological Society of America, 94(3): 1509-1525.
-35, Jin, Xiaohui He, Hongjian Fang, et al., (2023), Topography effect on ambient noise tomography: a case study for the Longmen Shan area, eastern Tibetan Plateau, Geophysical Journal International, 233(1): 1-12.
+35, Jin Ruizhi, Xiaohui He, Hongjian Fang, et al., (2023), Topography effect on ambient noise tomography: a case study for the Longmen Shan area, eastern Tibetan Plateau, Geophysical Journal International, 233(1): 1-12.
 34, 胡锦涛, 谢军, 危自根等, (2023), 三峡库区秭归段浅层速度结构和孕震环境, 地震学报, 45(2): 223-233.
 33, 张丽娜, 谢军, 迟本鑫等 (2023), 分布式光纤地震传感技术在成像研究中的应用进展, 地球与行星物理论评, 54(2): 140-149.
 32, 林融冰, 包丰, 谢军等 (2022), 光缆布设方式对犇犃犛主, 被动源记录的影响, 地球物理学报，65(10).
