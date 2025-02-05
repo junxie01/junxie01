@@ -1,10 +1,11 @@
 ---
 title: 如何在自己电脑中部署deepseek
+categories:
+  - Linux
+tags:
+  - Linux
+abbrlink: 869ca85c
 date: 2025-02-05 16:00:13
-tags:
-  - Linux
-tags:
-  - Linux
 ---
 &emsp;&emsp;deepseek很火，我也来凑热闹。之前的所谓LLM好像都本地部署都怎么关注，但似乎deepseek好像很方便。
 <!--less-->
