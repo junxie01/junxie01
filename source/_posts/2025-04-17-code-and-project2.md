@@ -17,5 +17,6 @@ date: 2025-04-17 15:55:44
 7. [earthquake_detection](https://github.com/ebeauce/earthquake_detection_EB_et_al_2019) Codes used in the earthquake detection and location method presented in Beauce et al. 2019, DOI: 10.1029/2019JB018110. A real data example is also provided.
 8. [beampower](https://ebeauce.github.io/beampower/introduction.html) Fast routines for seismic backprojection/beamforming for both CPU and GPU architectures.
 9. [Iterative Linear Stress Inversion (ILSI)](https://ebeauce.github.io/ILSI/) Python package for stress tensor inversion. 
+10. [Pyrocko](https://git.pyrocko.org/pyrocko/pyrocko/) A Python framework for efficient use of pre-computed Green's functions in seismological and other physical forward and inverse source problems.
 
 
