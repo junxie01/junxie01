@@ -58,4 +58,4 @@ while (current_date<end_date):
     st.write(output_file, format="MSEED")
 print('Finished')
 ```
-这个脚本可以下载Fnet,2013到2025年的LHZ连续波形数据，数据长度为25小时，overlap 1小时,去除仪器响应存放在seed文件中。
+这个脚本可以下载2013到2025年Fnet所有台站的LHZ连续波形数据，数据长度为25小时，overlap 1小时。去除仪器响应后的速度记录存放在seed文件夹中。每天的数据名称为%Y_%m_%d_%H_%M_%S.seed。账户需要去NIED去申请，当然用我的也可以。
