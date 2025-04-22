@@ -7,7 +7,7 @@ categories:
 abbrlink: '98618e37'
 date: 2025-04-22 08:36:57
 ---
-利用[FnetPy](https://github.com/seisman/FnetPy)下载Fnet数据。
+感谢Seisman写了[FnetPy](https://github.com/seisman/FnetPy),可以很方便地下载数据。
 安装：
 ```
 pip install https://github.com/seisman/FnetPy/archive/master.zip
