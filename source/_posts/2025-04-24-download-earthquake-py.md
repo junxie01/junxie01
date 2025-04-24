@@ -7,19 +7,20 @@ categories:
 abbrlink: ca92bb2a
 date: 2025-04-24 15:33:35
 ---
-接收函数或者其他方法需要下载地震波形数据。这里给出结合FetchEvent和obspy进行数据下载的例子。
-FetchEvent从地址https://github.com/EarthScope/fetch-scripts下载。他是用perl脚本写的。运行例子如下：
+&emsp;&emsp;接收函数或者其他方法需要下载地震波形数据。这里给出结合FetchEvent和obspy进行数据下载的例子。
+&emsp;&emsp;FetchEvent从地址https://github.com/EarthScope/fetch-scripts下载。他是用perl脚本写的。运行例子如下：
 ```
 ./FetchEvent -s 2006-01-01 -e 2007-05-01 --radius 5:12:95:28 --mag 5:10 -o event.lst
 ```
-表示下载发生时间为2006-01-01到2007-05-01，位于以(5,12)(lat,lon)为中心，半径28-95度，震级5-10级的地震信息，保存到event.lst中。
-下载之后event.lst内容如下：
+&emsp;&emsp;表示下载发生时间为2006-01-01到2007-05-01，位于以(5,12)(lat,lon)为中心，半径28-95度，震级5-10级的地震信息，保存到event.lst中。
+&emsp;&emsp;下载到的event.lst内容如下：
 ```
 8037834 |2006/01/23 20:50:46.19Z |  6.9168| -77.7951|  24.0355|ISC|||MS,5.86,ISC|mb,6.16,ISC|Near west coast of Colombia
 ```
-表示ID|时间|纬度|经度|深度|目录|||震级类型,震级,目录|震级类型,震级,目录|位置
+&emsp;&emsp;表示ID|时间|纬度|经度|深度|目录|||震级类型,震级,目录|震级类型,震级,目录|位置
+&emsp;&emsp;可以看出地震信息来自ISC目录，其实到[ISC](https://www.isc.ac.uk/iscbulletin/search/catalogue/)直接检索也很方便。
 
-接下来，下载XB台网所有台站接收到的地震理论P波到时前50秒到后150秒三分量数据。其中P波到时调用taup来计算。接下来去仪器响应，最后再截取P波前10秒到后60秒。保存为SAC格式，每个地震每个台站保存一个SAC，名称需包含地震时间震级及台站名。利用多线程ThreadPoolExecutor加速。脚本如下：
+&emsp;&emsp;接下来，下载XB台网所有台站接收到的地震理论P波到时前50秒到后150秒三分量数据。其中P波到时调用taup来计算。接下来去仪器响应，最后再截取P波前10秒到后60秒。保存为SAC格式，每个地震每个台站保存一个SAC，名称需包含地震时间震级及台站名。利用多线程ThreadPoolExecutor加速。脚本如下：
 ```
 import os
 from obspy import UTCDateTime, read_inventory
