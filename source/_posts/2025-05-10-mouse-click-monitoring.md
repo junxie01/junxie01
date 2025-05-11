@@ -37,8 +37,11 @@ with Listener(on_click=on_click) as listener:
     except KeyboardInterrupt:
         print("监听器已被用户中断。")
 ```
-&emsp;&emsp;这个脚本会记录鼠标左键的位置，输出到mouse_clicks.log文件中。mouse_clicks.log文件有三列格式如下：
-2025-05-07T17:01:33 1977 1576分别表示点击的时间，x和y坐标。其中y坐标是下面大上面小。此外点击鼠标右键或者输入Ctrl+C就可以结束记录。我一般是怎么做的呢？我先点击图片左下角得到（x0,y0），点击右下角得到(x1,y0)，点击左上角得到(x0,y1)，然后点击你想要的点。得到mouse_clicks.log以后就可以这么画图。
+&emsp;&emsp;这个脚本会记录鼠标左键的位置，输出到mouse_clicks.log文件中。mouse_clicks.log文件有三列:
+
+2025-05-07T17:01:33 1977 1576
+
+分别表示点击的时间，x和y坐标。其中y坐标是下面大上面小。此外点击鼠标右键或者输入Ctrl+C就可以结束记录。我一般是怎么做的呢？我先点击图片左下角得到（x0,y0），点击右下角得到(x1,y0)，点击左上角得到(x0,y1)，然后点击你想要的点。得到mouse_clicks.log以后就可以这么画图（gmt）。
 ```
 dat=mouse_clicks.log
 #获得x0,y0,x1,y1，他们是参考点
@@ -50,7 +53,8 @@ y1=`awk 'NR==3{print $3}' ${dat}`
 xs=`echo "$x1-$x0" |bc` 
 ys=`echo "$y0-$y1" |bc`
 
-awk -v x0=$x0 -v y0=$y0 -v xs=$xs -v ys=$ys 'NR>3{print ($2-x0)/xs*2000-1000,(y0-$3)/ys*1500}' ${dat[1]} | gmt psxy -R -J -O -K -W3p,black >>$ps
+awk -v x0=$x0 -v y0=$y0 -v xs=$xs -v ys=$ys 'NR>3{print ($2-x0)/xs*2000-1000,(y0-$3)/ys*1500}' ${dat} | gmt psxy -R -J -O -K -W3p,black >>$ps
 #这里（2000，1500）是横纵轴实际尺度，-1000表示实际位置调整。
 ```
-&emsp;&emsp;注意，这种方法仅仅适用于笛卡尔坐标，其他的各种投影都不行。
+&emsp;&emsp;注意，这种方法仅仅适用于线性笛卡尔坐标，其他的各种投影都不行。
+&emsp;&emsp;以后得加上这句：脚本/程序不保证正确性，自求多幅(no warranty/use at your own risk)。
