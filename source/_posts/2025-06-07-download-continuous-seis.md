@@ -7,7 +7,7 @@ categories:
 abbrlink: b4ccc3e7
 date: 2025-06-07 17:09:37
 ---
-&emsp;&emsp;这是连续波形数据下载更新。
+&emsp;&emsp;这是连续波形数据下载python脚本更新。
 <!--less-->
 ```python
 import os
@@ -146,7 +146,7 @@ while current_day <= end_date:
 
     current_day += 86400
 ```
-&emsp;&emsp;这个脚本完成的功能包括：
+&emsp;&emsp;这个脚本实现的功能包括：
    * 下载台站列表station.lst的2013-01-01到2024-01-01，LH?数据。
    * 每天的数据存储为global_data/YYYYMMDD.mseed。
    * 去仪器响应，保留VEL，滤波频率为0.008, 0.01, 0.3, 0.4。
