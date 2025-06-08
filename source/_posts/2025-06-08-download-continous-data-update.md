@@ -11,14 +11,14 @@ date: 2025-06-08 20:42:13
 <!--less-->
 ```python
 import os
-import traceback
 import numpy as np
+from obspy import UTCDateTime, Stream, Trace
 from obspy.io.sac import SACTrace
-from collections import defaultdict
 from obspy.clients.fdsn import Client
 from obspy.signal.rotate import rotate_ne_rt
-from obspy import UTCDateTime, Stream, Trace
 from concurrent.futures import ThreadPoolExecutor, as_completed
+import traceback
+from collections import defaultdict
 
 # 参数设置
 client = Client("IRIS")
@@ -33,8 +33,8 @@ sampling_rate = 1.0  # LH通道的采样率 (1 Hz)
 expected_npts = 86400  # 86400秒 * 1Hz采样率
 
 # 打印工作目录与输出目录
-print(f"📁📁 当前工作目录: {os.getcwd()}")
-print(f"📁📁 波形保存路径: {os.path.abspath(output_dir)}")
+print(f"📁📁📁📁 当前工作目录: {os.getcwd()}")
+print(f"📁📁📁📁 保存路径: {os.path.abspath(output_dir)}")
 
 # 读取台站列表
 sta_list = []
@@ -52,7 +52,7 @@ def log_exception(msg):
         f.write(f"{UTCDateTime.now().isoformat()} - {msg}\n")
 
 # 保存为SAC文件（每个通道一个文件）
-def save_channel_sac(tr, day_dir, net, sta):
+def save_channel_sac(tr, day_dir, net, sta, station_coords):
     try:
         # 确保目录存在
         os.makedirs(day_dir, exist_ok=True)
@@ -69,20 +69,19 @@ def save_channel_sac(tr, day_dir, net, sta):
         sac.kstnm = sta
         sac.knetwk = net
         
-        # 尝试获取坐标信息
-        try:
-            # 获取通道坐标
-            coords = client.get_coordinates(tr.id, tr.stats.starttime)
-            sac.stla = coords["latitude"]
-            sac.stlo = coords["longitude"]
-            sac.stel = coords["elevation"]
-            sac.stdp = coords.get("local_depth", 0.0)
-        except Exception as e:
-            log_exception(f"获取坐标失败 {net}.{sta}.{chan}: {str(e)}")
+        # 设置坐标信息
+        if station_coords is not None:
+            sac.stla = station_coords["latitude"]
+            sac.stlo = station_coords["longitude"]
+            sac.stel = station_coords["elevation"]
+            sac.stdp = station_coords.get("local_depth", 0.0)
+            print(f"    ✅ 添加坐标: {sac.stla:.4f}, {sac.stlo:.4f}")
+        else:
             sac.stla = 0.0
             sac.stlo = 0.0
             sac.stel = 0.0
             sac.stdp = 0.0
+            print(f"    ⚠⚠⚠️ 无坐标信息")
         
         # 保存文件
         sac.write(filepath)
@@ -156,7 +155,7 @@ def rotate_to_EN(tr1, tr2):
 def process_horizontal_components(st):
     """
     处理水平分量：
-    1. 如果只有LH1和LH2，旋转为LHE和LHN，并删除原始的LH1/LH2
+    1. 如果只有LH1和LH2，旋转为LHE和LHN，并删除原始的极LH1/LH2
     2. 如果存在LHN和LHE，优先使用它们，并删除任何LH1/LH2分量
     """
     try:
@@ -206,10 +205,40 @@ def process_horizontal_components(st):
 
 # 下载并处理单个台站某天的数据
 def download_station(net, sta, day):
+    station_coords = None  # 存储台站坐标
     try:
         start = UTCDateTime(day)
         end = start + 86400
         day_str = start.strftime("%Y%m%d")
+        
+        # 获取台站元数据
+        print(f"  获取 {net}.{sta} 元数据...")
+        try:
+            inv = client.get_stations(
+                network=net, 
+                station=sta, 
+                starttime=start, 
+                endtime=end, 
+                level="channel"
+            )
+            
+            # 尝试获取台站坐标（使用LHZ通道）
+            try:
+                station_coords = inv.get_coordinates(f"{net}.{sta}.00.LHZ", start)
+                print(f"    ✅ 获取坐标: {station_coords['latitude']:.4f}, {station_coords['longitude']:.4f}")
+            except:
+                # 如果LHZ失败，尝试其他LH通道
+                for chan in ["LHN", "LHE", "LH1", "LH2"]:
+                    try:
+                        station_coords = inv.get_coordinates(f"{net}.{sta}.00.{chan}", start)
+                        print(f"    ✅ 获取坐标: {station_coords['latitude']:.4f}, {station_coords['longitude']:.4f}")
+                        break
+                    except:
+                        continue
+                if station_coords is None:
+                    print("    ⚠⚠⚠️ 无法获取坐标")
+        except Exception as e:
+            print(f"  ⚠⚠⚠️ 元数据获取失败: {str(e)}")
         
         # 下载波形数据
         print(f"  下载 {net}.{sta} 波形数据...")
@@ -222,7 +251,7 @@ def download_station(net, sta, day):
         # 检查是否有LHZ分量（只取第一个）
         vertical_st = st.select(channel="LHZ")
         if len(vertical_st) == 0:
-            print(f"  ⚠️ 跳过 {net}.{sta} - 无LHZ分量")
+            print(f"  ⚠⚠⚠️ 跳过 {net}.{sta} - 无LHZ分量")
             return (net, sta, False, "无LHZ分量")
         else:
             # 只保留第一个LHZ分量
@@ -250,7 +279,7 @@ def download_station(net, sta, day):
                     final_st.append(tr)
                     channels.add(tr.stats.channel)
                 else:
-                    print(f"  ⚠️ 跳过重复通道: {tr.stats.channel}")
+                    print(f"  ⚠⚠⚠️ 跳过重复通道: {tr.stats.channel}")
         
         # 数据补零处理
         print("  数据补零处理...")
@@ -265,7 +294,7 @@ def download_station(net, sta, day):
         # 保存每个通道的数据
         saved_files = []
         for tr in filled_st:
-            filepath = save_channel_sac(tr, day_dir, net, sta)
+            filepath = save_channel_sac(tr, day_dir, net, sta, station_coords)
             if filepath:
                 saved_files.append(filepath)
         
@@ -279,16 +308,18 @@ def download_station(net, sta, day):
 # 遍历日期，按天下载并保存
 current_day = start_date
 while current_day <= end_date:
-    print(f"\n📆📆 正在处理日期: {current_day.date}")
     day_str = current_day.strftime("%Y%m%d")
     day_dir = os.path.join(output_dir, day_str)
     
+    # 检查是否已下载
     if os.path.exists(day_dir) and os.path.isdir(day_dir):
-        print(f"\n📆📆 日期 {current_day.date} 已存在，跳过处理")
+        print(f"\n📆📆📆📆 日期 {current_day.date} 已存在，跳过处理")
         # 进入下一天
         current_day += 86400
         continue
-
+    
+    print(f"\n📆📆📆📆 正在处理日期: {current_day.date}")
+    
     # 创建日期目录
     os.makedirs(day_dir, exist_ok=True)
 
@@ -310,19 +341,19 @@ while current_day <= end_date:
                     file_count = len(result)
                     print(f"✅ {net}.{sta} 处理成功 - 保存了 {file_count} 个SAC文件")
                     for filepath in result:
-                        print(f"   ↳ {os.path.basename(filepath)}")
+                        print(f"   ↳↳ {os.path.basename(filepath)}")
                 else:
                     fail_count += 1
-                    print(f"❌❌ {net}.{sta} 处理失败: {result}")
-                    log_lines.append(f"{current_day.date} {net}.{sta} ❌❌ {result}")
+                    print(f"❌❌❌❌ {net}.{sta} 处理失败: {result}")
+                    log_lines.append(f"{current_day.date} {net}.{sta} ❌❌❌❌ {result}")
             except Exception as e:
                 fail_count += 1
                 error_msg = f"{str(e)}"
-                print(f"❌❌ {net}.{sta} 异常: {error_msg}")
-                log_lines.append(f"{current_day.date} {net}.{sta} ❌❌ {error_msg}")
+                print(f"❌❌❌❌ {net}.{sta} 异常: {error_msg}")
+                log_lines.append(f"{current_day.date} {net}.{sta} ❌❌❌❌ {error_msg}")
                 traceback.print_exc()
 
-    print(f"\n📊 本日统计: {success_count} 个台站成功, {fail_count} 个台站失败")
+    print(f"\n📊📊 本日统计: {success_count} 个台站成功, {fail_count} 个台站失败")
 
     # 写入异常日志
     if log_lines:
@@ -332,14 +363,14 @@ while current_day <= end_date:
     # 进入下一天
     current_day += 86400
 
-print("\n🎉 所有日期处理完成!")
+print("\n🎉🎉 所有日期处理完成!")
 ```
 &emsp;&emsp;此脚本完成以下操作:
-   * 下载制定时间段的LH分量数据。
+   * 多线程下载指定定时间段的LH分量数据。
    * 按天保存到同一个文件夹，检查当天的文件是否已经建立，如果已建立则跳过（防止重复下载）。
    * 检查是否有LHZ分量，如果没有则跳过此台。
    * 去除仪器响应，保存为速度记录，滤波到0.008-0.4Hz。
-   * 仅保存第一个channel（空，00，01）的LHZ，LHE，LHN。
+   * 仅保存第一个location（空，00，01）的LHZ，LHE，LHN。
    * 如果同时有LH1,LH2,LHE,LHN则删除LH1,LH2分量。
    * 如果仅有LH1,LH2,则旋转到LHE，LHN，删除LH1,LH2。
    * 如果不足86400则补零，对齐到当天的00:00:00。
