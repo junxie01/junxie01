@@ -8,6 +8,7 @@ abbrlink: 5f341ab1
 date: 2025-06-08 20:42:13
 ---
 &emsp;&emsp;python脚本下载连续波形数据更新。
+<!--less-->
 ```python
 import os
 import traceback
