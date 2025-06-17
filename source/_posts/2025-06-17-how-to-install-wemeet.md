@@ -21,7 +21,7 @@ sudo alien -r deb包
 ```
 &emsp;&emsp;然后就生成了一个rpm包，就可以安装了。。。吧。。。
 &emsp;&emsp;不好意思，有依赖问题，怎么都搞不定。
-&emsp;&emsp;事实上我犯了个错误啊，现在搜索引擎已经落伍了啊。我里面吧问题输给了豆包啊。它说可以这么安装：
+&emsp;&emsp;事实上我犯了个错误啊，现在搜索引擎已经落伍了啊。我立马把问题输给了豆包啊。它说可以这么安装：
  * 安装Flatpak
 ```
 sudo dnf install flatpak
@@ -39,6 +39,7 @@ flatpak install flathub com.tencent.wemeet
 ```
 flatpak run com.tencent.wemeet
 ```
+
 &emsp;&emsp;然后。。。安装速度慢的可以啊。我直接Ctrl+C掐了。
 &emsp;&emsp;然后我在应用中心直接搜wemeet，就出现了WemeetApp，点击就安装了。好用的很。
 &emsp;&emsp;Linux也变成了点击就运行的玩意儿了啊。
