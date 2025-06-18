@@ -14,7 +14,7 @@ date: 2025-06-17 21:13:32
 npm install hexo-filter-mermaid-diagrams --save
 ```
 然后
-在\```mermaid和```之间输入:
+在```mermaid和```之间输入:
 
 graph TD
     A[开始] --> B{条件判断}
@@ -22,13 +22,14 @@ graph TD
     B -->|否| D[操作2]
     C --> E[结束]
     D --> E
-就会生成
+
+就会生成:
 ```mermaid
 graph TD
-    A[开始] --> B{条件判断}
-    B -->|是| C[操作1]
-    B -->|否| D[操作2]
-    C --> E[结束]
-    D --> E
+A[开始] --> B{条件判断}
+B -->|是| C[操作1]
+B -->|否| D[操作2]
+C --> E[结束]
+D --> E
 ```
 大功告成。
