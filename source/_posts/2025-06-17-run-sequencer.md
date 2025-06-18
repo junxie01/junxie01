@@ -4,9 +4,9 @@ tags:
   - python
 categories:
   - work
-mathjax: true
 abbrlink: c0e33a2d
 date: 2025-06-17 19:17:21
+mathjax: true
 ---
 &emsp;&emsp;今天学习Sequencer。
 <!--less-->
