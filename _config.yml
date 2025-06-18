@@ -210,3 +210,11 @@ encrypt:
 nofollow:
   enable: true
   field: site
+math:
+  engine: mathjax
+  mathjax:
+    version: 3
+    options:
+      tex:
+        inlineMath: [["$", "$"], ["\\(", "\\)"]]
+        displayMath: [["$$", "$$"], ["\\[", "\\]"]]
