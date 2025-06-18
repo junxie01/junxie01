@@ -56,8 +56,7 @@ G --> H[BFS序列提取]
  4. 信息聚合
    * 片段聚合：对固定（度量,尺度），用$\eta$加权平均各片段距离矩阵：$ D_{kl}=\langle \eta_{klm} \cdot D_{klm}\rangle_{m} $
    * 全局聚合：用$\eta$加权合并所有MST的边，构建全局邻近矩阵：
-$$ P_{combined}=\langle \eta_{kl}\cdot \#edges(MST_{kl})\rangle_{kl} 
-$$
+$$ P_{combined}=\langle \eta_{kl}\cdot \# edges(MST_{kl})\rangle_{kl} $$
  5. 序列提取
    构建全局MST$\rightarrow$从最不连通节点开始广度优先搜索（BFS），生成最终序列顺序。
 
