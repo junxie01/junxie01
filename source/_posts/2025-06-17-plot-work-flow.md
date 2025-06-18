@@ -16,7 +16,7 @@ npm install hexo-filter-mermaid-diagrams --save
 ```
 
 然后
-在\```mermaid和\```之间输入:
+在三个反引号+mermaid和三个反引号之间输入:
 
 graph TD
 A[开始] --> B{条件判断}
