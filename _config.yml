@@ -205,7 +205,7 @@ symbols_count_time:
   total_time: true             # 站点总阅读时长
   exclude_codeblock: false     # 排除代码字数统计
 encrypt:
-  enable: true
+  enable: false
 #20240604
 nofollow:
   enable: true
