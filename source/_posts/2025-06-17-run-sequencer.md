@@ -55,8 +55,9 @@ G --> H[BFS序列提取]
    对每个（度量, 尺度, 片段）生成距离矩阵$\rightarrow$构建MST$\rightarrow$计算伸长率$ \eta_{klm} $。例（文章图3）：窄脉冲数据在小尺度（l=4,5）的欧氏距离获得高$\eta$，指示局部趋势。
  4. 信息聚合
    * 片段聚合：对固定（度量,尺度），用$\eta$加权平均各片段距离矩阵：$ D_{kl}=\langle \eta_{klm} \cdot D_{klm}\rangle_{m} $
-   * 全局聚合：用η加权合并所有MST的边，构建全局邻近矩阵：
-$$ P_{combined}=\langle \eta_{kl}\cdot #edges(MST_{kl})\rangle_{kl} $$
+   * 全局聚合：用$\eta$加权合并所有MST的边，构建全局邻近矩阵：
+$$ P_{combined}=\langle \eta_{kl}\cdot \#edges(MST_{kl})\rangle_{kl} 
+$$
  5. 序列提取
    构建全局MST$\rightarrow$从最不连通节点开始广度优先搜索（BFS），生成最终序列顺序。
 
