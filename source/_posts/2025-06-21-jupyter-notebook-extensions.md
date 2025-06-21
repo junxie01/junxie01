@@ -23,6 +23,7 @@ date: 2025-06-21 19:45:32
 | **jupyter Widgets**        | 创建交互控件（滑块/下拉菜单），将静态图表转为动态仪表盘                  | [官网](https://ipywidgets.readthedocs.io/en/latest/)                      |
 | **Voilà**                  | 将 Notebook 转为独立 Web 应用，隐藏代码仅保留交互结果                    | [文档](https://voila.readthedocs.io/en/stable/)                           |
 | **RISE**                   | 实时代码幻灯片工具，用 Markdown 标题分页，支持演示中修改参数             | [GitHub](https://github.com/damianavila/RISE)                            |
+
 安装：
 ```
 pip install jupyter_contrib_nbextensions jupyterthemes voila rise
