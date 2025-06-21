@@ -129,7 +129,8 @@ c & d
 \end{pmatrix}
 \quad
 \begin{bmatrix}  % 方括号矩阵
-a & b \\
+a & b
+
 c & d 
 \end{bmatrix}
 \quad
