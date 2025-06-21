@@ -96,7 +96,7 @@ date: 2025-06-21 15:03:50
 |----------------|--------------------------------|------------------------------|
 | 圆括号（自适应）| `\left( \frac{a}{b} \right)`   | $\left( \frac{a}{b} \right)$  |
 | 方括号         | `\left[ x \right]`             | $\left[ x \right]$            |
-| 花括号         | `\left\{ x \right\}`           | $\left{ x \rigth}$          |
+| 花括号         | `\left\{ x \right\}`           | $\{ x \}$          |
 | 绝对值         | `\lvert x \rvert`              | $\lvert x \rvert$             |
 | 范数           | `\lVert \mathbf{v} \rVert`     | $\lVert \mathbf{v} \rVert$    |
 
