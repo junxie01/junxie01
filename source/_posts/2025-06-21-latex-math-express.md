@@ -125,16 +125,19 @@ $$
 $$ 
 \begin{pmatrix}  % 圆括号矩阵
 a & b \\
+
 c & d 
 \end{pmatrix}
 \quad
 \begin{bmatrix}  % 方括号矩阵
 a & b \\
+
 c & d 
 \end{bmatrix}
 \quad
 \begin{vmatrix}  % 行列式
 a & b \\
+
 c & d 
 \end{vmatrix}
 $$
