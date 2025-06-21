@@ -1,5 +1,9 @@
 ---
 title: 有趣的jupyter-notebook插件
+tags:
+  - python
+categories:
+  - python
 abbrlink: 69c8d283
 date: 2025-06-21 19:45:32
 tags:
