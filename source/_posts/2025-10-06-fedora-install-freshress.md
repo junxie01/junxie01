@@ -9,7 +9,7 @@ date: 2025-10-06 22:31:32
 ---
 &emsp;&emsp;Fedora中Apache环境下如何安装FreshRSS
 <!--less-->
-&emsp;&emsp;详细脚本安装请查看其[github](https://github.com/FreshRSS/FreshRSS/blob/edge/cli/README.md)。废话不多说，具体如下：
+&emsp;&emsp;之前总是蹭一个小伙子自己建的[RSS](https://rss.othing.xyz/)，白嫖，怕哪天人家不搞了，还是自己建一个吧。详细脚本安装请查看其[github](https://github.com/FreshRSS/FreshRSS/blob/edge/cli/README.md)。废话不多说，具体如下：
 # 一、安装依赖
 FreshRSS是基于PHP的自建RSS聚合器，需要Apache+PHP环境：
 ```
@@ -78,7 +78,7 @@ http://localhost/FreshRSS
 你应看到 FreshRSS 的安装页面。
 根据提示创建管理员账号、数据库配置（SQLite/MySQL 都可）。
 
-⚠️ 如果提示 “You don’t have permission to access this resource”，请确认：
+如果提示 “You don’t have permission to access this resource”，请确认：
 
 Apache 配置文件中包含 Require all granted
 
