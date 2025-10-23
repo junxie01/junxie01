@@ -173,10 +173,10 @@ plugins:
   hexo-generator-sitemap
 baidusitemap:
   path: baidusitemap.xml
-#sitemap:
-#  path: sitemap.xml
-#  tag: false
-#  category: false
+sitemap:
+  path: sitemap.xml
+  tag: false
+  category: false
 # 20200610
 # hexo-tag-cloud
 #tag_cloud:
