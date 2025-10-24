@@ -141,6 +141,7 @@ $$
 ```text
 DOP >= 0.8
 planarity_angle > 60°
+```
 
 ## 八、脚本
 ```
@@ -444,7 +445,4 @@ if __name__ == "__main__":
         outpref = f"{args.outs}_{base}"
         analyzer.plot_results(res, out_prefix=outpref, target_freq=args.target_freq)
         print("Saved:", outpref)
-
-
 ```
-
