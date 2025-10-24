@@ -54,7 +54,7 @@ date: 2025-10-24 10:24:39
 
 ### 定义
 $$
-S(t,f)=\int x(\tau)\,\frac{|f|}{\sqrt{2\pi}}\,e^{-(t-\tau)^2 f^2/2}\,e^{-i2\pi f\tau}\,d\tau
+S(t,f)=\int x(\tau)\frac{|f|}{\sqrt{2\pi}}e^{-(t-\tau)^2f^2/2}e^{-i2\pi f\tau}d\tau
 $$
 
 ### 参数与理由
@@ -75,7 +75,7 @@ $$
 
 ### 谱矩阵定义
 $$
-S_{ij}(t,f) = \widetilde{X_i}(t,f)\,\widetilde{X_j}^*(t,f)
+S_{ij}(t,f) = \widetilde{X_i}(t,f)\widetilde{X_j}^*(t,f)
 $$
 其中 $ \widetilde{X_i}(t,f) $ 为分量 i 的 S-transform 复系数。
 
