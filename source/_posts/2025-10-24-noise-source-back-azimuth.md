@@ -1,5 +1,5 @@
 ---
-title: noise-source-back-azimuth
+title: 计算背景噪声中噪声源背方位角
 tags:
   - work
 categories:
@@ -53,9 +53,9 @@ date: 2025-10-24 10:24:39
 ## 三、S-transform（论文规范实现）
 
 ### 定义
-\[
+$$
 S(t,f)=\int x(\tau)\,\frac{|f|}{\sqrt{2\pi}}\,e^{-(t-\tau)^2 f^2/2}\,e^{-i2\pi f\tau}\,d\tau
-\]
+$$
 
 ### 参数与理由
 | 参数 | 推荐值 | 理由 |
@@ -74,16 +74,16 @@ S(t,f)=\int x(\tau)\,\frac{|f|}{\sqrt{2\pi}}\,e^{-(t-\tau)^2 f^2/2}\,e^{-i2\pi f
 ## 四、谱矩阵构造与平滑
 
 ### 谱矩阵定义
-\[
+$$
 S_{ij}(t,f) = \widetilde{X_i}(t,f)\,\widetilde{X_j}^*(t,f)
-\]
-其中 \( \widetilde{X_i}(t,f) \) 为分量 i 的 S-transform 复系数。
+$$
+其中 $ \widetilde{X_i}(t,f) $ 为分量 i 的 S-transform 复系数。
 
 ### 平滑
 对时间方向做高斯平滑：
-\[
+$$
 \sigma_{\text{tf}} = \text{tf\_window\_periods} \times T \times f_s
-\]
+$$
 
 | 参数 | 推荐值 | 理由 |
 |------|--------|------|
@@ -95,14 +95,14 @@ S_{ij}(t,f) = \widetilde{X_i}(t,f)\,\widetilde{X_j}^*(t,f)
 ## 五、本征分解与极化属性
 
 对每个 (t,f) 做 3×3 复矩阵本征分解：
-\[
+$$
 S = V \Lambda V^H,\quad \Lambda = \operatorname{diag}(\lambda_1,\lambda_2,\lambda_3)
-\]
+$$
 
 ### DOP（Degree of Polarization）
-\[
+$$
 \mathrm{DOP} = \frac{\lambda_1 - \lambda_2}{\lambda_1 + \lambda_2 + \lambda_3}
-\]
+$$
 
 ### Planarity
 通过主、次特征向量叉积求平面法线，与竖直方向夹角 α：
@@ -119,9 +119,9 @@ S = V \Lambda V^H,\quad \Lambda = \operatorname{diag}(\lambda_1,\lambda_2,\lambd
 ## 六、背方位角（BAZ）计算
 
 ### 公式
-\[
+$$
 \mathrm{BAZ} = \operatorname{atan2}(E, N)
-\]
+$$
 以度为单位，0° = 北，顺时针增加。
 
 ### 处理细节
