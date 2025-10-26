@@ -17,8 +17,8 @@ comments: false
 会点地球物理，会点分析数据，会写点小文章，会点Linux。
 
 ## 发表文章 
-1. Luo Yan, Sidao Ni, Xangfang Zeng, et al., (2011), The M5.0 Suining-Tongnan (China) earthquake of 31 January 2010: A destructive earthquake occurring in sedimentary cover, *Chin. Sci. Bull.*, 56: 521.
-2. **Xie Jun**, Xiangfang Zeng, Weiwen Chen, et al., (2011), Comparison of ground truth location of earthquake from InSAR and from ambient seismic noise: A case study of the 1998 Zhangbei earthquake, *Earthquake Science*, 24(2): 239-247.
+1. Luo Yan, Sidao Ni, Xangfang Zeng, et al., (2011), [The M5.0 Suining-Tongnan (China) earthquake of 31 January 2010: A destructive earthquake occurring in sedimentary cover](https://link.springer.com/article/10.1007/s11434-010-4276-2), *Chinese Science Bulletin*, 56: 521.
+2. **Xie Jun**, Xiangfang Zeng, Weiwen Chen, et al., (2011), [Comparison of ground truth location of earthquake from InSAR and from ambient seismic noise: A case study of the 1998 Zhangbei earthquake](https://link.springer.com/article/10.1007/s11589-010-0788-5), *Earthquake Science*, 24(2): 239-247.
 3. Chen Weiwen, Sidao Ni, Shengji Wei, et al., (2011), Effects of sedimentary layer on earthquake source modelling from geodetic inversion, *Earthquake Science*, 24(2), pp.221-227.
 4. **Xie Jun**, Sidao Ni, Xiangfang Zeng, (2012), 1D shear wave velocity structure of the shallow upper crust in central Sichuan Basin, *Earthq. Res. Sichuan (in Chinese)*, (2): 20-24.
 5. Lü Yan, Sidao Ni, **Jun Xie**, et al., (2013), Crustal S-wave velocity structureof the Yellowstone region using a seismic ambient noise method, *Earthq Sci*, 26: 283.
