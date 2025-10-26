@@ -41,7 +41,7 @@
     "hexo-server": "^3.0.0",
     "hexo-symbols-count-time": "^0.6.2",
     "hexo-tag-aplayer": "^3.0.4",
-    "hexo-tag-cloud": "^2.0.10",
+    "hexo-tag-cloud": "^2.1.2",
     "hexo-theme-landscape": "^1.0.0",
     "hexo-theme-next": "^8.20.0",
     "mathjax": "^4.0.0"
