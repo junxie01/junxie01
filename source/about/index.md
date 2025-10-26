@@ -20,6 +20,12 @@ comments: false
 [Google scholar](https://scholar.google.com/citations?user=HlONCtkAAAAJ&hl=en)，[ResearchGate](https://www.researchgate.net/profile/Jun_Xie6)
 
 ## 文章列表
+44, Song Wang, Zhenghong Song, Xiangfang Zeng et al., (2025), High resolution shallow structure of Ebao basin revealed with DAS ambient noise tomography and its relation to earthquake ground motion, Journal of Geophysical Research: Solid Earth, 139(6): e2024JB029874.
+43, Lihua Mo, Minhan Sheng, Risheng Chu et al., (2025), Complex seismogenic fault system for the 2022 Ms6. 0 Maerkang (China) earthquake sequence resolved with reliable seismic source parameters, Tectonophysics, 904: 230718.
+42, 范心甜, 危自根, 储日升等, (2025), 腾冲火山区壳幔结构及其对岩浆系统的启示, 地球物理学报, 68(3): 845-856,
+41, 谢军, 曾祥方, 倪四道等, (2025), 利用分布式光纤地震传感数据反演冰层参数, 地球物理学报, 68(1): 153-163.
+40, 孙晓倩, 储日升, 曾求等, (2024), 利用地震背景噪声自相关探测四川理县西山村滑坡结构, 地球物理学报，67(10): 3735-3746.
+39, Zhenghong Song, Xiangfang Zeng, Sidao Ni et al., (2024), Near real‐time in situ monitoring of nearshore ocean currents using distributed acoustic sensing on submarine fiber‐optic cable, Earth and Space Science, 11(9): e2024EA003572.
 38, 危自根, 储日升, 谢军等, (2024), 当阳复向斜页岩气探测区地壳结构及其构造暗示, 地球物理学报, 67(8).
 37, Jun Xie, Xiangfang Zeng, Chao Liang, et al., (2024), Ice plate deformation and cracking revealed by an in situ-distributed acoustic sensing array, The Cryosphere, 18(2): 837-847. 
 36, AG Osotuyi, Sidao Ni, Jiajun Chong, et al., (2023), Seismometer orientation correction via teleseismic receiver function measurements in West Africa and adjacent Islands, Seismological Society of America, 94(3): 1509-1525.
