@@ -20,7 +20,7 @@ comments: false
 [Google scholar](https://scholar.google.com/citations?user=HlONCtkAAAAJ&hl=en)，[ResearchGate](https://www.researchgate.net/profile/Jun_Xie6)
 
 ## 文章列表
-44, Song Wang, Zhenghong Song, Xiangfang Zeng et al., (2025), High resolution shallow structure of Ebao basin revealed with DAS ambient noise tomography and its relation to earthquake ground motion, Journal of Geophysical Research: Solid Earth, 139(6): e2024JB029874.
+- Song Wang, Zhenghong Song, Xiangfang Zeng et al., (2025), High resolution shallow structure of Ebao basin revealed with DAS ambient noise tomography and its relation to earthquake ground motion, Journal of Geophysical Research: Solid Earth, 139(6): e2024JB029874.
 43, Lihua Mo, Minhan Sheng, Risheng Chu et al., (2025), Complex seismogenic fault system for the 2022 Ms6. 0 Maerkang (China) earthquake sequence resolved with reliable seismic source parameters, Tectonophysics, 904: 230718.
 42, 范心甜, 危自根, 储日升等, (2025), 腾冲火山区壳幔结构及其对岩浆系统的启示, 地球物理学报, 68(3): 845-856,
 41, 谢军, 曾祥方, 倪四道等, (2025), 利用分布式光纤地震传感数据反演冰层参数, 地球物理学报, 68(1): 153-163.
@@ -55,12 +55,12 @@ comments: false
 12, Zhao Kaifeng, Yinhe Luo, Jun Xie (2017), Broad-band Rayleigh wave phase velocity maps (10-150 s) across the United States from ambient noise data. Geophys J Int 208, 1265-275. doi:10.1093/gji/ggw460.
 11, Xie Jun, Yinjie Yang, Sidao Ni, (2016), On the accuracy of long-period Rayleigh waves extracted from ambient noise. Geophys J Int 206, 48-5.
 10, Li Guoliang, Haichao Chen, Fenglin Niu, et al., (2016), Measurement of Rayleigh wave ellipticity and its application to the joint inversion of high-resolution S-wave velocity structure beneath northeast China, J. Geophys. Res. Solid EarthVolume 121, Number 2, doi:10.1002/2015JB012459.
-9, Zeng, Xiangfang, Jun Xie, Sidao Ni, (2015), Ground Truth Location of Earthquakes by Use of Ambient Seismic Noise From a Sparse Seismic Network: A Case Study in Western Australia, Pure Appl. Geophys., 172: 1397. doi:10.1007/s00024-014-0993-6
+9, Zeng, Xiangfang, Jun Xie, Sidao Ni, (2015), Ground Truth Location of Earthquakes by Use of Ambient Seismic Noise From a Sparse Seismic Network: A Case Study in Western Australia, Pure Appl. Geophys., 172: 1397.
 8, Xia, Yingjie, Sidao Ni, Xiangfang Zeng, et al., (2015), Synchronizing Intercontinental Seismic Networks Using the 26 s Persistent Localized Microseismic Source, Bull. Seismol. Soc. Am., vol. 105 no. 4 2101-2108.
 7, Bao Feng, Sidao Ni, Jun Xie, et al., (2014), Validating Accuracy of Rayleigh Wave Dispersion Extracted from Ambient Seismic Noise Via Comparison with Data from a Ground-Truth Earthquake, Bull. Seismol. Soc. Am., vol. 104 no. 4 2133-2141.
 6, Bao Feng, Sidao Ni, J. Zheng, et al., (2013), Accurate earthquake location with instrumental clock error: A case study for the 19 January 2011 Anqing earthquake sequence, Acta Seismologica Sinica (in Chinese) , 35 (2) :160-172
-5, Lü Yan, Sidao Ni, Jun Xie, et al., (2013), Crustal S-wave velocity structureof the Yellowstone region using a seismic ambient noise method, Earthq Sci, 26: 283. doi:10.1007/s11589-013-0016-1
+5, Lü Yan, Sidao Ni, Jun Xie, et al., (2013), Crustal S-wave velocity structureof the Yellowstone region using a seismic ambient noise method, Earthq Sci, 26: 283.
 4, Xie Jun, Sidao Ni, Xiangfang Zeng, (2012), 1D shear wave velocity structure of the shallow upper crust in central Sichuan Basin, Earthq. Res. Sichuan (in Chinese), (2) :20-24.
 3, Chen Weiwen, Sidao Ni, S. Wei, et al., (2011), Effects of sedimentary layer on earthquake source modelling from geodetic inversion, Earthq Sci, Volume 24, Issue 2, pp.221-227.
 2, Xie Jun, Xiangfang Zeng, Weiwen Chen et al., (2011), Comparison of ground truth location of earthquake from InSAR and from ambient seismic noise: A case study of the 1998 Zhangbei earthquake, Earthq Sci, Volume 24, Issue 2, pp.239-247.
-1, Luo Yan, Sidao Ni, Xangfang Zeng. et al., (2011), The M5.0 Suining-Tongnan (China) earthquake of 31 January 2010: A destructive earthquake occurring in sedimentary cover, Chin. Sci. Bull., 56: 521. doi:10.1007/s11434-010-4276-2.
+1, Luo Yan, Sidao Ni, Xangfang Zeng. et al., (2011), The M5.0 Suining-Tongnan (China) earthquake of 31 January 2010: A destructive earthquake occurring in sedimentary cover, Chin. Sci. Bull., 56: 521.
