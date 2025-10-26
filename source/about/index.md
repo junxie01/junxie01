@@ -61,6 +61,6 @@ comments: false
 4. Xie Jun, Sidao Ni, Xiangfang Zeng, (2012), 1D shear wave velocity structure of the shallow upper crust in central Sichuan Basin, Earthq. Res. Sichuan (in Chinese), (2) :20-24.
 3. Chen Weiwen, Sidao Ni, Shengji Wei, et al., (2011), Effects of sedimentary layer on earthquake source modelling from geodetic inversion, Earthq Sci, Volume 24, Issue 2, pp.221-227.
 2. Xie Jun, Xiangfang Zeng, Weiwen Chen, et al., (2011), Comparison of ground truth location of earthquake from InSAR and from ambient seismic noise: A case study of the 1998 Zhangbei earthquake, Earthq Sci, Volume 24, Issue 2, pp.239-247.
-1, Luo Yan, Sidao Ni, Xangfang Zeng, et al., (2011), The M5.0 Suining-Tongnan (China) earthquake of 31 January 2010: A destructive earthquake occurring in sedimentary cover, Chin. Sci. Bull., 56: 521.
+1. Luo Yan, Sidao Ni, Xangfang Zeng, et al., (2011), The M5.0 Suining-Tongnan (China) earthquake of 31 January 2010: A destructive earthquake occurring in sedimentary cover, Chin. Sci. Bull., 56: 521.
 ## 其他链接
 [Google scholar](https://scholar.google.com/citations?user=HlONCtkAAAAJ&hl=en)，[ResearchGate](https://www.researchgate.net/profile/Jun_Xie6)
