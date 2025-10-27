@@ -4,17 +4,18 @@ date: 2020-05-28 14:03:54
 type: "about"
 comments: false
 ---
-## 我干啥的
-搞地球物理学的战五宅。
-
-## 研究方向
-地震学，速度结构，背景噪声，地震定位等。
 
 ## 这是哪里
 这里是我用来记笔记的地方。
 
+## 我干啥的
+搞地球物理学的战五宅。
+
 ## 我的能力
 会点地球物理，会点分析数据，会写点小文章，会点Linux。
+
+## 研究方向
+地震学，速度结构，背景噪声，地震定位等。
 
 ## 发表文章 
 1. Luo Yan, Sidao Ni, Xangfang Zeng, et al., (2011), [The M5.0 Suining-Tongnan (China) earthquake of 31 January 2010: A destructive earthquake occurring in sedimentary cover](https://link.springer.com/article/10.1007/s11434-010-4276-2), *Chinese Science Bulletin*, 56: 521.
