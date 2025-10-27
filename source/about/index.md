@@ -41,7 +41,7 @@ comments: false
 21. Adebayo Ojo, Sidao Ni, **Jun Xie**, et al., (2019), [Further constraints on the shear wave velocity structure of Cameroon from joint inversion of receiver function, Rayleigh wave dispersion and ellipticity measurements](https://academic.oup.com/gji/article-abstract/217/1/589/5304980), *Geophysical Journal International*, 217(1): 589-619
 22. 赵建忠, 李志伟, 林建民等, (2019), [南海地区地震背景噪声成像与壳幔深部结构](https://html.rhhz.net/dqwlxb/2019-6-2070.htm), *地球物理学报*, 62(6): 2070-2087.
 23. 危自根, 储日升, 杨小林等, (2019), [汉中盆地及邻区地壳结构和地震活动性研究](https://www.dzxb.org/cn/article/doi/10.11939/jass.20180145), *地震学报*, 41(4): 445-458.
-24. 王仁涛, 李志伟, 包丰等, (2019), [松辽盆地沉积层结构的短周期地震背景噪声成像研究](https://html.rhhz.net/dqwlxb/2019-9-3385.htm),*地球物理学报*, 62(9): 3385-3399.
+24. 王仁涛, 李志伟, 包丰等, (2019), [松辽盆地沉积层结构的短周期地震背景噪声成像研究](https://html.rhhz.net/dqwlxb/2019-9-3385.htm), *地球物理学报*, 62(9): 3385-3399.
 25. Aizhi Guo, Sidao Ni, **Jun Xie**, et al. (2019), [Millimerter-level ultra-long period multiple earth-circling surface waves retrieved from dense high-rate GPS network](https://www.sciencedirect.com/science/article/abs/pii/S0012821X19303917), *Earth and Planetary Science Letters*, 525: 115705.
 26. Ping Ping, Risheng Chu, Yu Zhang, et al., (2020), [Enhancing Signal-to-Noise Ratios of High-Frequency Rayleigh Waves Extracted from Ambient Seismic Noises in Topographic Region](https://pubs.geoscienceworld.org/ssa/bssa/article-abstract/110/2/793/582905), *Bulletin of the Seismological Society of America*, 110(2): 793-802.
 27. **Xie Jun**, Sidao Ni, Chu Risheng, (2020), [Relocation of the June 17th, 2017 Nuugaatsiaq (Greenland) landside based on Green’s functions from ambient seismic noise](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019JB018947), *Journal of Geophysical Research: Solid Earth*, 125(5): e2019JB018947.
@@ -72,7 +72,7 @@ comments: false
 52. 胡锦涛, 危自根, **谢军**等, (2025), [湖北中强震孕震环境和震源机制研究](http://dzxb.org/article/doi/10.11939/jass.20240031?viewType=HTML), *地震学报*, 47(3): 374-389.
 53. Lihua Mo, Minhan Sheng, Risheng Chu, et al., (2025), [Complex seismogenic fault system for the 2022 Ms6. 0 Maerkang (China) earthquake sequence resolved with reliable seismic source parameters](https://www.sciencedirect.com/science/article/pii/S0040195125001040), *Tectonophysics*, 904: 230718.
 54. Song Wang, Zhenghong Song, Xiangfang Zeng, et al., (2025), [High resolution shallow structure of Ebao basin revealed with DAS ambient noise tomography and its relation to earthquake ground motion](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2024JB029874), *Journal of Geophysical Research: Solid Earth*, 139(6): e2024JB029874.
-55. 杨桦, 危自根, 金超等, (2025), [利用H/V谱比法研究鄂尔多斯盆地南北部黄土层与沉积层厚度](http://www.yndxxb.ynu.edu.cn/yndxxbzrkxb/cn/article/doi/10.7540/j.ynu.20250036), 云南大学学报(自然科学版).
+55. 杨桦, 危自根, 金超等, (2025), [利用H/V谱比法研究鄂尔多斯盆地南北部黄土层与沉积层厚度](http://www.yndxxb.ynu.edu.cn/yndxxbzrkxb/cn/article/doi/10.7540/j.ynu.20250036), *云南大学学报(自然科学版)*.
 
 ## 其他链接
 [Google scholar](https://scholar.google.com/citations?user=HlONCtkAAAAJ&hl=en)，[ResearchGate](https://www.researchgate.net/profile/Jun_Xie6)
