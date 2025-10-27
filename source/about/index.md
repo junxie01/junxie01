@@ -1,5 +1,5 @@
 ---
-title: 关于我
+title: 简介
 date: 2020-05-28 14:03:54
 type: "about"
 comments: false
