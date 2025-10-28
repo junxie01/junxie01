@@ -8,6 +8,7 @@ abbrlink: 689a3f45
 date: 2025-06-30 21:27:28
 ---
 &emsp;&emsp;以下是python脚本练习2，功能为读取选定时间段内的hdf5文件，文件名形如20130512_cross_spec.hdf5。该文件总共有24段，每一段是一个小时某台阵平均互相关谱。然后画出这个互相关谱，保存为png格式图片。
+<!--less-->
 ```python
 import os
 import h5py
