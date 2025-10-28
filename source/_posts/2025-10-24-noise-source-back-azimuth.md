@@ -7,7 +7,7 @@ categories:
 abbrlink: 6c30a2ea
 date: 2025-10-24 10:24:39
 ---
-&emsp;&emsp;单站三分量背景噪声数据如何分析极化与信号源背方位角？  
+&emsp;&emsp;单台三分量背景噪声数据如何分析极化与信号源背方位角？  
 <!--less-->
 当然是DOP-E啦(基于论文 Schimmel et al., 2011; Berbellini et al., 2019)。  
 ## 总体流程概述
