@@ -7,7 +7,8 @@ categories:
 abbrlink: d78cae06
 date: 2025-06-21 15:03:50
 ---
-&emsp;&emsp;以下是$\LaTeX$的数学算符
+&emsp;&emsp;$\LaTeX$和markdown的数学算符几乎是一样的，那怎么编辑呢？
+<!--less-->
 
 > **说明**：公式需包裹在 `$...$`（行内公式）或 `$$...$$`（块级公式）中，以下表格中的 **渲染效果** 需在支持 LaTeX 的 Markdown 环境中显示（如 Typora、Obsidian 等）。
 
