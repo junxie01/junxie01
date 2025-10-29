@@ -7,7 +7,7 @@ categories:
 abbrlink: a1dc7bf4
 date: 2025-05-16 14:39:46
 ---
-&emsp;&emsp;要是制定台站列表怎么下载地震数据呢？
+&emsp;&emsp;要是指定台站列表怎么下载地震数据呢？
 <!--less-->
 &emsp;&emsp;python脚本如下。
 ```
