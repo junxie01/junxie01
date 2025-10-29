@@ -7,7 +7,9 @@ categories:
 abbrlink: dc8bc93b
 date: 2025-06-07 19:48:45
 ---
-&emsp;&emsp;数据下载好后需要统计下载的情况，这是python脚本。
+&emsp;&emsp;数据下载好后怎么统计数据连续性？
+<!--less-->
+&emsp;&emsp;python脚本如下。
 ```python
 import os
 from obspy import read
