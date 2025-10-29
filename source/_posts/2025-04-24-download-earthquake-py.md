@@ -7,7 +7,9 @@ categories:
 abbrlink: ca92bb2a
 date: 2025-04-24 15:33:35
 ---
-&emsp;&emsp;接收函数或者其他方法需要下载地震波形数据。这里给出结合FetchEvent和obspy进行数据下载的例子。
+&emsp;&emsp;地震波形数据怎么下载？
+<!--less-->
+&emsp;&emsp;可以去[IRIS](http://iris.edu/)网站下啊。这里给出结合FetchEvent和obspy进行数据下载的例子，还比较简单哈。
 &emsp;&emsp;FetchEvent从地址https://github.com/EarthScope/fetch-scripts下载。他是用perl脚本写的。运行例子如下：
 ```
 ./FetchEvent -s 2006-01-01 -e 2007-05-01 --radius 5:12:95:28 --mag 5:10 -o event.lst
