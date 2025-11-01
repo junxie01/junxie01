@@ -1,7 +1,7 @@
 ---
 title: 计算背景噪声中噪声源背方位角
 tags:
-  - work
+  - seismology
 categories:
   - work
 abbrlink: 6c30a2ea
