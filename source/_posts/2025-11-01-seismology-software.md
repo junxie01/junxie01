@@ -43,3 +43,5 @@ date: 2025-11-01 20:35:26
 - [GEOFON](https://geofon.gfz.de/software/)，GFZ Helmholtz Centre for Geosciences。
 - [Seismo-Live](https://seismo-live.github.io/tree/index.html)，Live Jupyter Notebooks for Seismology。
 - [Schimmel](https://diapiro.geo3bcn.csic.es/gt/mschi/SCIENCE/tseries.html#software)，西班牙巴塞罗那地球科学研究所教授主页。
+- [iEarth](https://iearth.edu.au/codes/)，AuScope inversion laboratory。
+- [QUEST](http://www.quest-itn.org/library/software.html)。
