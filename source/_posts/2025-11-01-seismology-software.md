@@ -36,7 +36,10 @@ date: 2025-11-01 20:35:26
 - [Thorne](https://home.chpc.utah.edu/~thorne/software.html)，犹他大学教授主页。
 - [Miao Group](https://www.physics.ucla.edu/research/imaging/dataSoftware.html)，UCLA成像课题组主页。
 - [Louie](https://www.louie.pub/)，内华达大学教授主页。
+- [Lupei Zhu](https://www.eas.slu.edu/People/LZhu/home.html)老师主页。
 - [Becker](https://github.com/thwbecker)，University of Texas at Austin教授主页。
 - [CES](https://ces.kaust.edu.sa/research/software)，国王阿卜杜拉大学计算地震学研究组主页。
 - [Globalseis](https://www.geoazur.fr/GLOBALSEIS/Soft.html)，普林斯顿大学Guust Nolet教授课题组主页。
 - [GEOFON](https://geofon.gfz.de/software/)，GFZ Helmholtz Centre for Geosciences。
+- [Seismo-Live](https://seismo-live.github.io/tree/index.html)，Live Jupyter Notebooks for Seismology。
+- [Schimmel](https://diapiro.geo3bcn.csic.es/gt/mschi/SCIENCE/tseries.html#software)，西班牙巴塞罗那地球科学研究所教授主页。
