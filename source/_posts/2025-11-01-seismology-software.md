@@ -9,7 +9,7 @@ date: 2025-11-01 20:35:26
 ---
 &emsp;&emsp;哪里去找地震学相关的程序？
 <!--less-->
-&emsp;&emsp;以下是收集到到一些网站，这些网站有丰富的地震学相关程序。
+&emsp;&emsp;以下是收集到到一些网站，这些网站有大量的地震学相关程序。
 - [SeisMan](https://seismo-learn.org/links/codes/)整理了一份，可以先去他那里瞧瞧。
 - [USGS](https://www.usgs.gov/programs/earthquake-hazards/software)这里有超多的程序。他们缺经费，网站好像不更新了，Github在[这里](https://github.com/usgs).
 - [IRIS](https://www.iris.edu/hq/sis/resources/software)也有一个软件网页，提供了很多程序。
