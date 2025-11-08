@@ -1,0 +1,55 @@
+header.header {
+  gemini-block();
+
+  +tablet-mobile() {
+    border-radius: $border-radius;
+  }
+}
+
+.main {
+  // Make sure that .header and .main-inner are the same height
+  // Required for .sidebar `position: sticky;`
+  align-items: stretch;
+  display: flex;
+  justify-content: space-between;
+  main-container();
+
+// 20251026
+  
+
+  if ($sidebar-toggle-alignment == 'right') {
+    flex-direction: row-reverse;
+  }
+
+  +tablet-mobile() {
+    display: block;
+    width: auto;
+  }
+}
+
+.main-inner {
+  border-radius: $border-radius-inner;
+  box-sizing: border-box;
+  width: $content-wrap;
+  //20251026
+  background: rgba(255,255,255,0.9);
+
+  +tablet-mobile() {
+    border-radius: initial;
+    width: 100%;
+  }
+}
+
+.footer-inner {
+  if ($sidebar-toggle-alignment == 'right') {
+    padding-right: $sidebar-width-dual-column + $sidebar-offset;
+  } else {
+    padding-left: $sidebar-width-dual-column + $sidebar-offset;
+  }
+
+  +tablet-mobile() {
+    padding-left: 0;
+    padding-right: 0;
+    width: auto;
+  }
+}

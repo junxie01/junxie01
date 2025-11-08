@@ -5,7 +5,10 @@
 @import '_sidebar';
 
 .main-inner {
+  //20240605
   background: var(--content-bg-color);
+  //background: rgba(255,255,255,0.9);
+  //20240605
   box-shadow: $box-shadow-inner;
   padding: $content-desktop-padding;
 
@@ -28,11 +31,11 @@
     margin-bottom: 10px;
   }
 }
-// 20251026
+// 20240601
 body {
-   background:url(/images/bg.jpg);
-   background-repeat: no-repeat;
-   background-attachment:fixed;
-   background-size: cover;
-   background-position:50% 50%;
+    background:url(/images/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed; //不重复
+    background-size: cover;      //填充
+    background-position:50% 50%;
 }

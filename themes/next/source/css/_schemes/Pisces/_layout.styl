@@ -2,6 +2,7 @@ header.header {
   gemini-block();
 
   +tablet-mobile() {
+    //border-radius: initial;
     border-radius: $border-radius;
   }
 }
@@ -14,8 +15,9 @@ header.header {
   justify-content: space-between;
   main-container();
 
-// 20251026
-  
+  //20240605
+  //background: rgba(255,255,255,0.9);
+  //20240605
 
   if ($sidebar-toggle-alignment == 'right') {
     flex-direction: row-reverse;
@@ -31,11 +33,12 @@ header.header {
   border-radius: $border-radius-inner;
   box-sizing: border-box;
   width: $content-wrap;
-  //20251026
+  //20240605
   background: rgba(255,255,255,0.9);
+  //20240605
 
   +tablet-mobile() {
-    border-radius: initial;
+    border-radius: $border-radius;
     width: 100%;
   }
 }

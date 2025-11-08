@@ -34,9 +34,7 @@ if (hexo-config('back2top.enable')) {
       color: $b2t-color;
       display: flex;
       height: $sidebar-toggle-size;
-      transition: $transition-ease;
-      // Override in Pisces
-      transition-property: bottom;
+      transition: bottom $transition-ease;
       sidebar-toggle();
 
       &:hover {

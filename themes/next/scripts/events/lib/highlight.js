@@ -13,6 +13,7 @@ module.exports = hexo => {
   const { config } = hexo;
   const theme = hexo.theme.config;
   config.highlight.hljs = false;
+  config.prismjs = config.prismjs || {};
   theme.highlight = {
     enable: config.syntax_highlighter === 'highlight.js' || config.highlight.enable,
     light : highlightTheme(theme.codeblock.theme.light),

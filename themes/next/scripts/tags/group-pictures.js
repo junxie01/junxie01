@@ -80,7 +80,7 @@ function groupBy(group, data) {
 
 const templates = {
 
-  dispatch(pictures, group, layout) {
+  dispatch: function(pictures, group, layout) {
     const rule = LAYOUTS[group] ? LAYOUTS[group][layout] : null;
     return rule ? this.getHTML(groupBy(rule, pictures)) : this.defaults(pictures);
   },
@@ -94,7 +94,7 @@ const templates = {
    *
    * @param pictures
    */
-  defaults(pictures) {
+  defaults: function(pictures) {
     const ROW_SIZE = 3;
     const rows = pictures.length / ROW_SIZE;
     const pictureArr = [];
@@ -106,13 +106,13 @@ const templates = {
     return this.getHTML(pictureArr);
   },
 
-  getHTML(rows) {
+  getHTML: function(rows) {
     return rows.map(row => {
       return `<div class="group-picture-row">${this.getColumnHTML(row)}</div>`;
     }).join('');
   },
 
-  getColumnHTML(pictures) {
+  getColumnHTML: function(pictures) {
     return pictures.map(picture => {
       return `<div class="group-picture-column">${picture}</div>`;
     }).join('');

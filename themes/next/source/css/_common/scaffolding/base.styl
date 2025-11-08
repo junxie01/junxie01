@@ -1,6 +1,6 @@
 ::selection {
-  background: var(--selection-bg);
-  color: var(--selection-color);
+  background: $selection-bg;
+  color: $selection-color;
 }
 
 html, body {
@@ -27,8 +27,7 @@ body {
   }
 
   if (hexo-config('body_scrollbar.stable')) {
-    // https://caniuse.com/mdn-css_properties_scrollbar-gutter
-    scrollbar-gutter: stable;
+    overflow-y: scroll;
   }
 }
 
@@ -43,6 +42,10 @@ for $headline in (1 .. 6) {
   h{$headline} {
     font-size: $font-size-headings-base - $font-size-headings-step * $headline;
   }
+}
+
+p {
+  margin: 0 0 20px;
 }
 
 a {
