@@ -53,7 +53,7 @@ gmt end
 
 - 方位等距投影
   一般以某个点为中心的画法，例如接收函数台站和事件分布。
-{% asset_img azi1.png 米勒投影 %}
+{% asset_img azi1.png %}
 ```
 #!/bin/bash
 gmt begin azi1 png
