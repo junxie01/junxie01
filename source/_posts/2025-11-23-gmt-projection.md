@@ -14,7 +14,6 @@ date: 2025-11-23 15:24:13
   首先是Mercator投影，最开始学的时候就是用这个。GMT主页说它可能是最著名的。它是等角圆柱形投影。
 
 {% asset_img mercater.png 蒙卡托投影 %}
-{% asset_img per.png "透视投影" "width:800,height:600" %}
 
 脚本如下：
 ```
@@ -63,7 +62,9 @@ gmt end
 - 方位等距投影
   一般以某个点为中心的画法，例如接收函数台站和事件分布。
 
-{% asset_img azi1.png 方位等距投影 "width:800,height:600" %}
+%%{% asset_img azi1.png 方位等距投影 "width:800,height:600" %}
+<img src="{% asset_path azi1.png %}" width="800" height="600">
+
 
 ```
 #!/bin/bash
