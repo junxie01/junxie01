@@ -7,11 +7,9 @@ tags:
 abbrlink: 40ac122d
 date: 2020-07-21 23:04:45
 ---
-#%%![地幔过渡带](Picture1.png)
 {% asset_img Picture1.png 地幔过渡带%}
 <!-- less -->
 &emsp;&emsp;不看不知道，一看吓一跳。地幔过渡带的研究热度要爆表。搜了一下2016年以来的文章，多如牛毛，而且乖乖，都是高影响因子期刊论文。
-#![部分文献](Picture2.png)
 {% asset_img Picture2.png 部分文献%}
 
 &emsp;&emsp;老板让想一下以后的方向，关于地幔结构，宜居性，热点。那就地幔过渡带的水咯。
