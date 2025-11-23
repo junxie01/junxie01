@@ -20,6 +20,7 @@ gmt begin mercater png
 gmt coast -R90/140/10/50 -JM6i -Bxa10f5 -Bya10f5 -Dl -W0p -A5000 -Ggray
 gmt end
 ```
+
 - 米勒投影
   米勒投影把真个地球搞的挺方，比其他的扁的好看一点儿。
 
@@ -28,5 +29,23 @@ gmt end
 #!/bin/bash
 gmt begin miller png
 gmt coast -R-180/180/-90/90 -JJ6i -Ggray -Swhite -Dl -Bxa90 -Bya45 -A30000 -W0p 
+gmt end
+```
+- 圆柱等积投影
+  可以画矩形扁扁的地球
+{% asset_img cyl1.png 米勒投影 %}
+```
+#!/bin/bash
+gmt begin cyl1 png
+gmt coast -R-180/180/-90/90 -JY0/0/6i -Ggray -Swhite -Dl -Bxa90 -Bya45 -A30000 -W0p 
+gmt end
+```
+
+- 圆柱等距投影
+  也是扁扁的地球
+```
+#!/bin/bash
+gmt begin cyl2 png
+gmt coast -R-180/180/-90/90 -JQ6i -Ggray -Swhite -Dl -Bxa90 -Bya45 -A30000 -W0p 
 gmt end
 ```
