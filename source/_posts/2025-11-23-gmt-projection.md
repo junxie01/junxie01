@@ -106,3 +106,15 @@ gmt begin per png
 gmt coast -R-180/180/-90/90 -JG0/0/6000/90/0/0/60/60/5i -Ggray -Swhite -Dl -Bxa90 -Bya45 -A30000 -W0p 
 gmt end
 ```
+
+- 罗宾逊投影
+
+
+<img src="/gmt-projection/rob.png" width="600">
+
+```
+#!/bin/bash
+gmt begin rob png
+gmt coast -R-180/180/-90/90 -JN5i -Ggray -Swhite -Dl -Bxa90 -Bya45 -A30000 -W0p 
+gmt end
+```
