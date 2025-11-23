@@ -49,7 +49,7 @@ gmt end
 ## 圆柱等距投影
   也是扁扁的地球。
 
-{% asset_img cyl2.png "圆柱等距投影" "width:800,height:600" %}
+{% asset_img cyl2.png 圆柱等距投影 %}
 
 ```
 #!/bin/bash
@@ -61,7 +61,7 @@ gmt end
 ## 方位等距投影
   一般以某个点为中心的画法，例如接收函数台站和事件分布。
 
-<img src="/gmt-projection/azi1.png" width="600">
+<img src="/gmt-projection/azi1.png" >
 
 
 ```
@@ -74,7 +74,7 @@ gmt end
 ## 正投影
   从无限远处看地球。可以简单理解为外星人视角。
 
-<img src="/gmt-projection/orth.png" width="600">
+<img src="/gmt-projection/orth.png" >
 
 ```
 #!/bin/bash
@@ -95,7 +95,7 @@ gmt end
   - 旋转角度（0度）。这是图像的视轴旋转（顺时针方向）。180度旋转模拟倒飞的情况。
   - 视场的宽度和高度以度为单位（60）。这个数字取决于你是用肉眼观察（在这种情况下，你的视野大约为 60º 宽），还是用双筒望远镜等工具观察。
 
-<img src="/gmt-projection/per.png" width="600">
+<img src="/gmt-projection/per.png" >
 
 ```
 #!/bin/bash
@@ -107,7 +107,7 @@ gmt end
 ## 罗宾逊投影
 
 
-<img src="/gmt-projection/rob.png" width="600">
+<img src="/gmt-projection/rob.png" >
 
 ```
 #!/bin/bash
@@ -118,7 +118,7 @@ gmt end
 
 ## 莫尔维德投影
 
-<img src="/gmt-projection/moll.png" width="600">
+<img src="/gmt-projection/moll.png">
 
 ```
 #!/bin/bash
@@ -130,7 +130,7 @@ gmt end
 ## 埃克特投影
   好像很多全球成像结果就是用的这个投影。
 
-<img src="/gmt-projection/eck.png" width="600">
+<img src="/gmt-projection/eck.png" >
 ```
 #!/bin/bash
 gmt begin eck png
