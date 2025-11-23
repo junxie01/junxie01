@@ -14,6 +14,7 @@ date: 2025-11-23 15:24:13
   首先是Mercator投影，最开始学的时候就是用这个。GMT主页说它可能是最著名的。它是等角圆柱形投影。
 
 {% asset_img mercater.png 蒙卡托投影 %}
+{% asset_img per.png "透视投影" "width:800,height:600" %}
 
 脚本如下：
 ```
