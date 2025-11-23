@@ -1,8 +1,9 @@
 ---
 title: hexo图片显示
-categories: web
+categories: 
+  - web
 tags:
-  - next
+  - hexo
   - web
 abbrlink: 25823
 date: 2020-05-31 02:26:29
