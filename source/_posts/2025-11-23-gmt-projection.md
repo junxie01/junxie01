@@ -38,7 +38,7 @@ gmt end
 - 圆柱等积投影
   可以画矩形扁扁的地球。
 
-{% asset_img cyl1.png 圆柱等积投影%}
+{% asset_img cyl1.png "圆柱等积投影" "width:800,height:600" %}
 
 ```
 #!/bin/bash
@@ -50,7 +50,7 @@ gmt end
 - 圆柱等距投影
   也是扁扁的地球。
 
-{% asset_img cyl2.png 圆柱等距投影%}
+{% asset_img cyl2.png "圆柱等距投影" "width:800,height:600" %}
 
 ```
 #!/bin/bash
@@ -74,7 +74,7 @@ gmt end
 - 正投影
   从无限远处看地球。可以简单理解为外星人视角。
 
-{% asset_img orth.png 正投影%}
+{% asset_img orth.png "正投影" "width:800,height:600" %}
 
 ```
 #!/bin/bash
@@ -95,7 +95,7 @@ gmt end
   旋转角度（0度）。这是图像的视轴旋转（顺时针方向）。180度旋转模拟倒飞的情况。
   视场的宽度和高度以度为单位（60）。这个数字取决于你是用肉眼观察（在这种情况下，你的视野大约为 60º 宽），还是用双筒望远镜等工具观察。
 
-{% asset_img per.png 透视投影%}
+{% asset_img per.png "透视投影" "width:800,height:600" %}
 
 ```
 #!/bin/bash
