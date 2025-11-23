@@ -115,3 +115,25 @@ gmt begin rob png
 gmt coast -R-180/180/-90/90 -JN5i -Ggray -Swhite -Dl -Bxa90 -Bya45 -A30000 -W0p 
 gmt end
 ```
+
+- 莫尔维德投影
+
+<img src="/gmt-projection/moll.png" width="600">
+
+```
+#!/bin/bash
+gmt begin moll png
+gmt coast -Rd -JW5i -Ggray -Swhite -Dl -Bxa90 -Bya45 -A30000 -W0p 
+gmt end
+```
+
+- 埃克特投影
+  好像很多全球成像就是用的这个投影。
+
+<img src="/gmt-projection/eck.png" width="600">
+```
+#!/bin/bash
+gmt begin eck png
+gmt coast -Rd -JKf5i -Ggray -Swhite -Dl -Bxa90 -Bya45 -A30000 -W0p 
+gmt end
+```
