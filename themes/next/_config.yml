@@ -919,3 +919,5 @@ vendors:
 css: css
 js: js
 images: images
+changyan:
+  enable: false
