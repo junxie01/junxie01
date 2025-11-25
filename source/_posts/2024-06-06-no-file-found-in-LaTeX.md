@@ -3,7 +3,7 @@ title: '运行LaTeX 遇到 ! LaTeX Error: File `xxx` not found.'
 categories:
   - Linux
 tags:
-  - laTeX
+  - LaTeX
 abbrlink: 6cb6ca71
 date: 2024-06-06 10:26:10
 ---
