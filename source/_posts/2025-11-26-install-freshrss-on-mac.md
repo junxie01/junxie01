@@ -36,5 +36,5 @@ git pull origin main
 echo 'alias freshrss="cd ~/FreshRSS && php -S localhost:8080 -t ."' >> ~/.zshrc
 source ~/.zshrc
 ```
-然后每次运行freshrss，然后在浏览器访问http://localhost:8080就好。
+然后每次运行freshrss，然后在浏览器访问 http://localhost:8080 就好。
 大功告成。
