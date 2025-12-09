@@ -7,9 +7,7 @@ tags:
 abbrlink: d82c8a73
 date: 2025-12-09 11:18:49
 ---
-&emsp;&emsp;[Investigation of Time-Lapse Changes with DAS Borehole Data
-at the Brady Geothermal Field Using
-Deconvolution Interferometry](https://www.mdpi.com/2072-4292/14/1/185)
+&emsp;&emsp;[Investigation of Time-Lapse Changes with DAS Borehole Data at the Brady Geothermal Field Using Deconvolution Interferometry](https://www.mdpi.com/2072-4292/14/1/185)
 <!--less-->
 ### 摘要
 分布式声波传感（DAS）在监测自然资源储层和井筒条件方面具有巨大潜力。然而，数据量大且波场复杂，给处理和解释带来挑战。本研究展示了基于反褶积的地震干涉法是分析复杂波场的便捷工具，并指出该方法仍需要良好的耦合以提取目标信号。我们从内华达州Brady地热田一口垂直井的DAS观测中提取了相干波，这些波为在某一深度区间内来回反射的“缆绳/套管振铃”波。这种振铃现象在垂直井DAS数据中十分常见。反褶积方法使我们可以在不同边界条件下分析波场，并分离直达波与多次波。借此，我们可用简单的一维弦模型解释波场，并监测其随时间的变化。该波的速度随深度、观测时间、温度和压力而变化，对井内运行强度增加引起的扰动敏感，且随温度升高而降低。频谱分析可将振铃波分解为不同振动模态，发现波具有频散性，基阶模态传播速度较高。该干涉法可用于利用高密度DAS数据监测井筒条件或储层性质变化。
