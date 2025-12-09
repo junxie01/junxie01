@@ -7,6 +7,8 @@ tags:
 abbrlink: ea1ae8f1
 date: 2025-12-09 15:47:26
 ---
+&emsp;&emsp;[Characterizing hydraulic fracture growth using distributed acoustic sensing-recorded microseismic reflections](https://pubs.geoscienceworld.org/seg/geophysics/article/88/6/WC47/627513/Characterizing-hydraulic-fracture-growth-using)
+<!--less-->
 ### 摘要
 
 水力压裂是提高非常规储层油气产量的关键手段，刻画裂缝几何形态与扩展过程对理解储层响应、优化完井设计具有重要价值。分布式声波传感（DAS）可记录包含直达 P/S 波、转换波与反射波在内的完整微地震波场，提供大孔径观测。本文利用 DAS 记录的微地震反射 S 波，结合 f-k 滤波与射线追踪，将反射波走时映射为空间反射率，实现裂缝成像。实例研究表明，反射成像推断的裂缝发育与低频 DAS（LF-DAS）观测的裂缝驱动相互作用（FDI）高度一致，并能揭示未抵达光纤的远端裂缝。同一压裂阶段多个事件的成像结果可拼接为裂缝动态演化的“快照”。该方法为微地震监测提供了新的高分辨率成像维度。
