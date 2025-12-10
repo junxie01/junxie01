@@ -8,6 +8,7 @@ abbrlink: 976d1cb4
 date: 2025-12-10 10:49:18
 ---
 &emsp;&emsp;[DAS observations and modeling of perforation-induced guided waves in a shale reservoir](https://pubs.geoscienceworld.org/seg/tle/article-abstract/38/11/858/574691/DAS-observations-and-modeling-of-perforation)
+<!--less-->
 ### 题目
 DAS observations and modeling of perforation-induced guided waves in a shale reservoir
 
