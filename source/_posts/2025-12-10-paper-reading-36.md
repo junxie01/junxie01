@@ -15,7 +15,7 @@ DAS observations and modeling of perforation-induced guided waves in a shale res
 ### 一作与通讯作者信息
 - **第一作者 & 通讯作者**：Ariel Lellouch  
   **单位**：Stanford University, Department of Geophysics, Stanford, California, USA  
-  **邮箱**：ariellel@stanford.edu（公开通讯）
+  **邮箱**：ariellel@stanford.edu
 
 ---
 
