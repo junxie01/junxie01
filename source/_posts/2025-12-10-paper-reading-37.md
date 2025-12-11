@@ -7,11 +7,11 @@ tags:
 abbrlink: 8e762df5
 date: 2025-12-10 19:31:10
 ---
-&emsp;&emsp;[Distributed acoustic sensing microseismic reflection imaging for hydraulic fracture and fault lineament characterization](https://pubs.geoscienceworld.org/seg/geophysics/article-abstract/89/4/D183/643890/Distributed-acoustic-sensing-microseismic)
+&emsp;&emsp;[Ma et al. (2024), Geophysics](https://pubs.geoscienceworld.org/seg/geophysics/article-abstract/89/4/D183/643890/Distributed-acoustic-sensing-microseismic)
 <!--less-->
 
-### 题目
-Distributed acoustic sensing microseismic reflection imaging for hydraulic fracture and fault lineament characterization
+### 引文信息
+Ma, Y., Ajo-Franklin, J., Nayak, A., Zhu, X., Correa, J., & Kerr, E. (2024). Distributed acoustic sensing microseismic reflection imaging for hydraulic fracture and fault lineament characterization. Geophysics, 89(4), D183–D192. https://doi.org/10.1190/geo2023-0582.1
 
 ### 一作与通讯作者信息
 - **第一作者 & 通讯作者**：Yuanyuan Ma  

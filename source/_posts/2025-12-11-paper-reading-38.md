@@ -7,7 +7,7 @@ tags:
 abbrlink: 9ee313a
 date: 2025-12-11 09:26:29
 ---
-&emsp;&emsp;[Using distributed acoustic sensing to characterize unconventional reservoirs via perforation-shot triggered P waves](https://pubs.geoscienceworld.org/seg/geophysics/article-abstract/89/2/P11/634865/Using-distributed-acoustic-sensing-to-characterize)
+&emsp;&emsp;[Li & Jin (2024), Geophysics](https://pubs.geoscienceworld.org/seg/geophysics/article-abstract/89/2/P11/634865/Using-distributed-acoustic-sensing-to-characterize)
 <!--less-->
 
 ### 题目
