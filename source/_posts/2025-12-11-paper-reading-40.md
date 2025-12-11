@@ -1,8 +1,11 @@
 ---
-title: paper-reading-40
+title: 文献阅读(40)
 abbrlink: 314c7685
 date: 2025-12-11 16:27:54
+categories:
+  - work
 tags:
+  - paper
 ---
 &emsp;&emsp;[Luo et al. (2021), Geophysics](https://pubs.geoscienceworld.org/seg/geophysics/article-abstract/86/4/R383/600866/Seismic-inversion-of-shale-reservoir-properties?redirectedFrom=fulltext)
 <!--less-->

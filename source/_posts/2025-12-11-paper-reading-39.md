@@ -2,7 +2,10 @@
 title: 文献阅读(39)
 abbrlink: 10f5007b
 date: 2025-12-11 14:24:43
+categories:
+  - work
 tags:
+  - paper
 ---
 &emsp;&emsp;[Lellouch et al. (2019), JGR](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019JB017533)
 <!--less-->
