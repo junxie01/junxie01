@@ -10,8 +10,9 @@ tags:
 &emsp;&emsp;[Luo et al. (2021), Geophysics](https://pubs.geoscienceworld.org/seg/geophysics/article-abstract/86/4/R383/600866/Seismic-inversion-of-shale-reservoir-properties?redirectedFrom=fulltext)
 <!--less-->
 
-## 题目
-&emsp;&emsp;Seismic inversion of shale reservoir properties using microseismic induced guided waves recorded by distributed acoustic sensing
+## 引文信息
+&emsp;&emsp;Luo, B., Lellouch, A., Jin, G., Biondi, B., & Simmons, J. (2021). Seismic inversion of shale reservoir properties using microseismic-induced guided waves recorded by distributed acoustic sensing. Geophysics, 86(4), R383–R397. https://doi.org/10.1190/geo2020-0607.1
+
 ## 第一作者与通讯作者
 - 第一作者：Bin Luo（科罗拉多矿业学院 → 现斯坦福大学）  
 - 通讯作者：Bin Luo（邮箱 bluo@mines.edu）  
