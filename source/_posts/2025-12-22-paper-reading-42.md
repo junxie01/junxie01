@@ -7,7 +7,7 @@ tags:
 abbrlink: f64ecf35
 date: 2025-12-22 19:47:13
 ---
-[Dømgaard et al., 2024](https://www.nature.com/articles/s43247-024-01522-4)
+&emsp;&emsp;[Dømgaard et al. (2024), Communications Earth & Environment](https://www.nature.com/articles/s43247-024-01522-4)
 <!--less-->
 ### 题目
 Altimetry-based ice-marginal lake water level changes in Greenland
