@@ -14,8 +14,8 @@ Altimetry-based ice-marginal lake water level changes in Greenland
 
 ### 作者与单位信息
 - **第一作者**：Mads Dømgaard
-  **通讯作者**：Mads Dømgaard (mld@ign.ku.dk)
-  **单位**：
+-  **通讯作者**：Mads Dømgaard (mld@ign.ku.dk)
+-  **单位**：
 1. Department of Geoscience and Natural Resource Management, University of Copenhagen, 1350 Copenhagen K, Denmark
 2. Geological Survey of Denmark and Greenland (GEUS), 1350 Copenhagen, Denmark
 
