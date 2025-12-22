@@ -9,6 +9,9 @@ date: 2025-12-22 21:18:52
 ---
 &emsp;&emsp;[Nishida & Shiomi (2012) JGR](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2012JB009258)
 <!--less-->
+### 题目
+Enigmatic very low frequency tremors beneath the Shonai Plain in northeastern Japan
+
 ### 作者与单位信息
 - 第一作者：K. Nishida (西田和弘)
 - 通讯作者：K. Nishida (邮箱：knishida@eri.u-tokyo.ac.jp)
