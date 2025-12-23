@@ -23,7 +23,7 @@ Enigmatic very low frequency tremors beneath the Shonai Plain in northeastern Ja
 2. Nishida, K., et al. (2009). Source process of long-period microseisms excited by the 5 April 2004 Sumatra-Andaman Earthquake. Geophysical Research Letters, 36(17), L17309.
 3. Nishida, K., & Fukao, Y. (2017). Detecting deep slow slip events in the ocean by seafloor geodetic observations. Journal of Geophysical Research: Solid Earth, 122(4), 3111-3122.
 ### 摘要
-我们报告了在日本东北部庄内平原下方观察到的神秘的极低频(VLF)震颤。这些震颤以0.085 Hz为主频，主要在冬季活跃，持续1-2天，每月发生数次。分析显示，这些震颤发出的Love波能量比Rayleigh波大一个数量级，这一特征无法用常见的地震源如滑坡或火山喷发来解释。震源位于海岸线附近浅水区，深度约30米，与庄内平原断层带相连的导电层相吻合，表明流体在震颤激发中可能起重要作用。观测到的单一频率峰值暗示了与流体系统共振相关的激发机制，类似于火山震颤。这一发现为研究极低频震颤的物理机制提供了新的视角，尤其是在海洋-陆地交界区域。
+本文报告了在日本东北部庄内平原下方观察到的神秘的极低频(VLF)震颤。这些震颤以0.085 Hz为主频，主要在冬季活跃，持续1-2天，每月发生数次。分析显示，这些震颤发出的Love波能量比Rayleigh波大一个数量级，这一特征无法用常见的地震源如滑坡或火山喷发来解释。震源位于海岸线附近浅水区，深度约30米，与庄内平原断层带相连的导电层相吻合，表明流体在震颤激发中可能起重要作用。观测到的单一频率峰值暗示了与流体系统共振相关的激发机制，类似于火山震颤。这一发现为研究极低频震颤的物理机制提供了新的视角，尤其是在海洋-陆地交界区域。
 ### 相关研究的重要性
 1. 地球背景噪声理解：极低频地震信号是地球背景噪声的重要组成部分，理解其来源有助于改进地震监测和成像技术。
 2. 断层物理机制：VLF震颤可能反映了断层带中特殊的物理过程，如流体运动或慢滑移，对理解断层行为至关重要。
