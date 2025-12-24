@@ -18,8 +18,6 @@ Observation of a New Long-Period (16-s) Persistent Tremor Originating in the Gul
   1. Department of Mechanics and Aerospace Engineering, Harbin Institute of Technology, Harbin, China  
   2. School of Earth and Space Sciences, Southern University of Science and Technology, Shenzhen, China
 
----
-
 ### 第一作者其他三篇代表性著作
 1. **Xia, Y.**, Chen, X. (2020).  
    *Observation of a new long‐period (16‐s) persistent tremor originating in the Gulf of Guinea.*  
@@ -36,12 +34,10 @@ Observation of a New Long-Period (16-s) Persistent Tremor Originating in the Gul
    Earth and Planetary Physics, 3, 415–423.  
    → 揭示 26 s 源能量存在半年调制，支持海洋-火山耦合机制。
    要不是我认识xia，比较熟悉他的工作，还真看不出第三篇文章是假的。又一次真切感受到了大语言模型的幻觉啊。大预言模型真的离智能还很远。
----
 
 ### 摘要
 &gt; 通过分析非洲、欧洲与美洲地震台网记录，我们在初级微震频带内发现一个新的持续窄带震颤，其中心周期约 16 s。该震颤可在噪声互相关函数（NCF）中产生相干信号，从而潜在地偏移背景噪声层析成像结果。利用包络叠加法，我们定位到 16 s 震颤源位于几内亚湾近海，且与先前报道的 26 s 源位置不同。其持续、窄带、局域特征与非洲东南马约特火山 16 s 超长周期震颤极为相似，暗示几内亚湾所有定频震颤（16/26/27 s）可能均与火山活动有关；该区或仍存在未被识别的活火山。
 
----
 
 ### 相关研究的重要性
 | 序号 | 重要性维度 | 具体阐述 |
@@ -50,8 +46,6 @@ Observation of a New Long-Period (16-s) Persistent Tremor Originating in the Gul
 | 2 | 火山-海洋耦合新机制 | 若定频震颤由火山共振+海洋调制共同驱动，将提供“固体地球-流体加载”耦合新范例。 |
 | 3 | 噪声层析成像偏差 | 未识别的定频源会在 NCF 中生成虚假面波信号，污染群速度测量，影响西非及全球地壳成像。 |
 | 4 | 区域火山灾害评估 | 几内亚湾沿岸人口稠密，确认潜在活火山对评估火山海啸、地震及碳排放风险具有现实意义。 |
-
----
 
 ### 前人相关研究与不足
 | 研究 | 主要结果 | 不足 |
@@ -69,8 +63,6 @@ Observation of a New Long-Period (16-s) Persistent Tremor Originating in the Gul
 3. 机制停留在“海洋微震”或“未知”二选一，未引入火山共振模型；  
 4. 缺乏季节-海洋波高联合分析，无法评估海洋加载贡献。
 
----
-
 ### 本文数据与方法
 | 类别 | 内容 |
 |---|---|
@@ -79,16 +71,12 @@ Observation of a New Long-Period (16-s) Persistent Tremor Originating in the Gul
 | **定位算法** | 1. 1°×1° 网格搜索；&lt;br&gt;2. 用 ETOPO1 地形+ CPS 计算 16/26/27 s 瑞利波群速度图；&lt;br&gt;3. 射线追踪得理论到时差 τij(x,y)；&lt;br&gt;4. 包络叠加能量 E(x,y)=Σ∫u²(τij+t)dt，最大值即为源；&lt;br&gt;5. Bootstrap 评估误差 |
 | **辅助分析** | 对比马约特 2018-11 喷发前后 ABPO-LSZ 台对频谱；&lt;br&gt;计算 SNR&gt;4 挑选高信噪比 NCF；&lt;br&gt;季节幅度谱对比 ASCN 2013-2016 |
 
----
-
 ### 主要结果
 1. 在 KLEF、ASCN 等台时频谱中识别出 0.062 Hz（16 s）持续水平条带，夏季更强；  
 2. NCF 中 16 s 尖峰振幅随台站方位变化，表明辐射有方向性；  
 3. 网格搜索最大能量位于 1°N, 8°E，与 26 s 源（6°N, 4°E）相距~600 km，二者不重合；  
 4. 将 16 s 到时按 26 s 源位置校正后出现&gt;200 s 残差，进一步排除同源；  
 5. 16 s 源与 27 s 源均落在喀麦隆火山链附近，与马约特火山 16 s VLP 频谱形态高度相似。
-
----
 
 ### 创新点与贡献
 | 创新/贡献 | 说明 |
@@ -98,16 +86,12 @@ Observation of a New Long-Period (16-s) Persistent Tremor Originating in the Gul
 | **火山-海洋耦合机制** | 将定频震颤与火山 VLP 类比，提出“岩浆共振+海洋调制”模型 |
 | **噪声层析风险提示** | 明确指出 16 s 信号会污染西非 NCF，提醒层析成像需剔除或校正 |
 
----
-
 ### 本文不足
 1. **定位误差仍大**：台站分布稀疏，16 s 源 1°×1° 网格，等效~100 km 不确定性；  
 2. **无近场海底台**：无法区分沿岸火山 vs 海底火山；  
 3. **机制停留在类比**：未做震源机制反演或数值模拟，缺少岩浆裂隙共振参数；  
 4. **季节-海洋波高未定量**：仅目视对比，未建立海浪 Hs-Tp 与震颤能量统计关系；  
 5. **缺乏深度约束**：仅用 Rayleigh 波群速度，无相速度或 3D 结构校正。
-
----
 
 ### 后续改进与跟进
 | 方向 | 具体措施 |
