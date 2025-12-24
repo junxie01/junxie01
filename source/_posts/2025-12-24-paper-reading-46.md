@@ -35,8 +35,7 @@ Observation of a New Long-Period (16-s) Persistent Tremor Originating in the Gul
    *Seasonal modulation of the 26-s microseism source in the Gulf of Guinea.*  
    Earth and Planetary Physics, 3, 415–423.  
    → 揭示 26 s 源能量存在半年调制，支持海洋-火山耦合机制。
-
-要不是我认识xia，比较熟悉他的工作，还真看不出第三篇文章是假的。又一次真切感受到了大语言模型的幻觉啊。大预言模型真的离智能还很远。
+   要不是我认识xia，比较熟悉他的工作，还真看不出第三篇文章是假的。又一次真切感受到了大语言模型的幻觉啊。大预言模型真的离智能还很远。
 ---
 
 ### 摘要
