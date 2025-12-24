@@ -4,7 +4,7 @@ tags:
   - obspy
   - python
 categories:
-  - work
+  - python
 abbrlink: cb1143bd
 date: 2025-04-21 21:17:55
 ---

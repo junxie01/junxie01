@@ -3,7 +3,7 @@ title: PYTHON脚本练习（一）
 tags:
   - python
 categories:
-  - work
+  - python
 abbrlink: 588cd39d
 date: 2025-06-21 14:29:56
 ---

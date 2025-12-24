@@ -3,7 +3,7 @@ title: python脚本下载连续波形数据更新
 tags:
   - python
 categories:
-  - work
+  - python
 abbrlink: 5f341ab1
 date: 2025-06-08 20:42:13
 ---
