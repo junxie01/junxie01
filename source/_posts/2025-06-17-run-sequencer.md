@@ -3,7 +3,7 @@ title: 学习Sequencer
 tags:
   - python
 categories:
-  - python
+  - ai
 abbrlink: c0e33a2d
 date: 2025-06-17 19:17:21
 mathjax: true
