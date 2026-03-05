@@ -70,6 +70,6 @@ python demo/app_januspro.py
 ```
 python demo/app_januspro.py --device cuda
 ```
-打开本地链接http://127.0.0.1:7860就可以使用。
+打开本地链接[http://127.0.0.1:7860](http://127.0.0.1:7860)就可以使用。
 
 理想很丰满，现实很骨感，还是没搞定，有时间再整。
