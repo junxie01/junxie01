@@ -7,7 +7,7 @@ tags:
 abbrlink: 8b393b70
 date: 2025-12-28 11:27:37
 ---
-&emsp;&emsp;[Phạm 2025 GRL](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025GL118885?af=R)
+&emsp;&emsp;[Phạm, 2025, GRL](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025GL118885?af=R)
 <!--less-->
 ### 题目
 Systematic Detection of Glacial Earthquakes in Thwaites Glacier, West Antarctica, by Regional Surface Waves
