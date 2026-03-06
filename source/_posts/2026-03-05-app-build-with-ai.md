@@ -15,5 +15,6 @@ date: 2026-03-05 22:09:50
 界面左边可以看到文件目录内容，右下角是AI对话框，你可以在这里和AI对话，请他构建你想要的程序。
 我的app有三个界面:
 ![Imgur](https://i.imgur.com/deZ496N.png)
+[Imgur](https://i.imgur.com/deZ496N.png)
 ![Imgur](https://i.imgur.com/vIwStug.png)
 ![Imgur](https://i.imgur.com/mzcxKir.png)
