@@ -924,5 +924,3 @@ changyan:
 asset_img_dir: false
 post_path: false
 relative_link: true
-lazyload:
-  enable: false
