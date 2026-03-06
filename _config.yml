@@ -227,3 +227,6 @@ math:
         displayMath: [["$$", "$$"], ["\\[", "\\]"]]
 changyan:
   enable: false
+marked:
+  prependRoot: true
+  postAsset: true
