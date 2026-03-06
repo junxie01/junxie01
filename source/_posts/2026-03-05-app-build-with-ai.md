@@ -16,5 +16,6 @@ date: 2026-03-05 22:09:50
 我的app有三个界面:
 ![Imgur](https://i.imgur.com/deZ496N.png)
 [Imgur](https://i.imgur.com/deZ496N.png)
+![](https://github.com/junxie01/picx-images-hosting/raw/master/2026-02-26-110323.64eegoclhf.webp)
 ![Imgur](https://i.imgur.com/vIwStug.png)
 ![Imgur](https://i.imgur.com/mzcxKir.png)
