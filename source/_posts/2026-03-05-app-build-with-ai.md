@@ -14,6 +14,6 @@ date: 2026-03-05 22:09:50
 <blockquote class="imgur-embed-pub" lang="en" data-id="a/zB7ZnmR" data-context="false" ><a href="//imgur.com/a/zB7ZnmR"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 界面左边可以看到文件目录内容，右下角是AI对话框，你可以在这里和AI对话，请他构建你想要的程序。
 我的app有三个界面:
-![Imgur](https://imgur.com/deZ496N.jpg)
-![Imgur](https://imgur.com/vIwStug.jpg)
-![Imgur](https://imgur.com/mzcxKir.jpg)
+![Imgur](https://i.imgur.com/deZ496N.png)
+![Imgur](https://i.imgur.com/vIwStug.png)
+![Imgur](https://i.imgur.com/mzcxKir.png)
