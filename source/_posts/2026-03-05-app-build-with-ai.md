@@ -11,7 +11,7 @@ date: 2026-03-05 22:09:50
 <!--less-->
 &emsp;&emsp;这是我的第一个app，命名为[seisamuse](https://github.com/junxie01/seismic-app)，也就是和我的网站同名的app。
 &emsp;&emsp;我用的是字节跳动发布的AI原生编程工具[TRAE](https://trae.zhike.in/)。下载安装好后，如下图：
-![TRAE界面](https://imgur.com/a/zB7ZnmR)
-![TRAE界面](https://imgur.com/ix8P3AZ)
 <blockquote class="imgur-embed-pub" lang="en" data-id="a/zB7ZnmR" data-context="false" ><a href="//imgur.com/a/zB7ZnmR"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 界面左边可以看到文件目录内容，右下角是AI对话框，你可以在这里和AI对话，请他构建你想要的程序。
+我的app有三个界面:
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/zB7ZnmR" data-context="false" ><a href="//imgur.com/a/zB7ZnmR"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
