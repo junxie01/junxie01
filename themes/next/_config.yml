@@ -921,3 +921,4 @@ js: js
 images: images
 changyan:
   enable: false
+asset_img_dir: false
