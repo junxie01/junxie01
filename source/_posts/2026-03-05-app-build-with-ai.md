@@ -17,3 +17,9 @@ date: 2026-03-05 22:09:50
 ![](2.png)
 ![](3.png)
 ![](4.png)
+用命令
+```
+npx expo run:android --variant release
+```
+就可以生成apk文件，位置在seismic-app/andriod/app/build/outputs/apk/app-release.apk 
+下载到安卓手机就可以安装了。
