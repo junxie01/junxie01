@@ -96,11 +96,15 @@ open_graph:
 # Value before `||` delimiter is the target link, value after `||` delimiter is the name of Font Awesome icon.
 # External url should start with http:// or https://
 menu:
-  home: / || fa fa-home
-  tags: /tags/ || fa fa-tags
-  categories: /categories/ || fa fa-th
-  archives: /archives/ || fa fa-archive
-  简介: /about/ || fa fa-user
+  #home: / || fa fa-home
+  网站首页: / || fa fa-home
+  #tags: /tags/ || fa fa-tags
+  博文标签tags: /tags/ || fa fa-tags
+  #categories: /categories/ || fa fa-th
+  文章分类: /categories/ || fa fa-th
+  #archives: /archives/ || fa fa-archive
+  文章归档: /archives/ || fa fa-archive
+  网站简介: /about/ || fa fa-user
   #Cryoseismology: /cryoseismology_papers/
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
