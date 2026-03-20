@@ -99,7 +99,7 @@ menu:
   #home: / || fa fa-home
   网站首页: / || fa fa-home
   #tags: /tags/ || fa fa-tags
-  博文标签tags: /tags/ || fa fa-tags
+  博文标签: /tags/ || fa fa-tags
   #categories: /categories/ || fa fa-th
   文章分类: /categories/ || fa fa-th
   #archives: /archives/ || fa fa-archive
