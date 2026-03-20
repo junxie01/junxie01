@@ -106,6 +106,7 @@ menu:
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
   论文周报: /paper_weekly/frontend/ || fa fa-newspaper
+  每周地震: /earthquake_weekly/ || fa fa-heartbeat
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
