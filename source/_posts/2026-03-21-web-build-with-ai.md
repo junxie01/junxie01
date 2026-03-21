@@ -47,7 +47,7 @@ date: 2026-03-21 10:36:31
 - `frontend/`: 网页展示端（支持多专题切换）。
 - `.github/workflows/update.yml`: GitHub Actions 配置文件。
 
-可以到我的侧边栏点击[论文周报](https://www.seis-jun.xyz/paper_weekly/frontend/)查看。目前版本并没有集成AI，不能总结论文内容，只有翻译。有机会再集成AI吧。
+可以到我的侧边栏点击[论文周报](https://www.seis-jun.xyz/paper_weekly/frontend/)查看。每周日它会自动检索文章然后生成pdf发邮件给我，另外也会更新网页。目前版本并没有集成AI，不能总结论文内容，只有翻译。有机会再集成AI吧。
 
 &emsp;&emsp;另一个网页是每周地震。以前参加组会每周都会有的内容。
 
@@ -102,4 +102,4 @@ date: 2026-03-21 10:36:31
 2. 您的论文页面将自动出现在：`https://www.seis-jun.xyz/earthquake_weekly`
 3. 在 Hexo 的 `_config.yml` 菜单中添加该链接即可。
 
-也可以到我的侧边栏点击[每周地震](https://www.seis-jun.xyz/earthquake_weekly/)查看。目前版本比较简单，欢迎提意见。
+也可以到我的侧边栏点击[每周地震](https://www.seis-jun.xyz/earthquake_weekly/)查看。每周日会重新抓取数据，更新网页。目前版本比较简单，欢迎提意见。
