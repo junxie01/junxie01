@@ -103,4 +103,5 @@ auto_download/
 ## ⚠️ 注意事项
 *   下载全球地震数据需要稳定的国际网络环境（访问 IRIS FDSN 服务）。
 *   全球 BH? 数据量较大，请确保运行环境有充足的内存和磁盘空间。
-&emsp;&emsp;脚本见{% btn /downloads/auto_seismo_monitor.py, 📥 下载 Python 脚本, download, outline %}，下载下来改为你的目录。
+
+有兴趣可以{% btn /downloads/auto_seismo_monitor.py, 📥 下载 Python 脚本, download, outline %}，修改一下目录就可以了。
