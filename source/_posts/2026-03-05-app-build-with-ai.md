@@ -1,5 +1,5 @@
 ---
-title: 用AI做app
+title: 用AI做APP
 categories:
   - ai
 tags:
