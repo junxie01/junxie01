@@ -20,7 +20,7 @@ date: 2026-03-21 10:36:31
 
 ### 部署为子站点 
 1. 在本仓库的 **Settings > Pages** 中开启部署，选择 `main` 分支。
-2. 您的论文页面将自动出现在：`https://www.seis-jun.xyz/paper_weekly/frontend/`
+2. 您的论文页面将自动出现在：`https://www.seis-jun.xyz/paper_weekly/`
 3. 在Hexo中的next主题下的 `_config.yml` 菜单中添加该链接即可。
 
 ### 自动化流程
