@@ -111,7 +111,7 @@ menu:
   #commonweal: /404/ || fa fa-heartbeat
   论文周报: /paper_weekly/ || fa fa-newspaper
   每周地震: /earthquake_weekly/ || fa fa-heartbeat
-  每日资讯: /daily_news/ || fa fa-newpaper
+  每日资讯: /daily_news/ || fa fa-newspaper
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
