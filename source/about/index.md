@@ -73,7 +73,8 @@ comments: false
 53. Lihua Mo, Minhan Sheng, Risheng Chu, et al., (2025), [Complex seismogenic fault system for the 2022 Ms6. 0 Maerkang (China) earthquake sequence resolved with reliable seismic source parameters](https://www.sciencedirect.com/science/article/pii/S0040195125001040), *Tectonophysics*, 904: 230718.
 54. Song Wang, Zhenghong Song, Xiangfang Zeng, et al., (2025), [High resolution shallow structure of Ebao basin revealed with DAS ambient noise tomography and its relation to earthquake ground motion](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2024JB029874), *Journal of Geophysical Research: Solid Earth*, 139(6): e2024JB029874.
 55. 杨桦, 危自根, 金超等, (2025), [利用H/V谱比法研究鄂尔多斯盆地南北部黄土层与沉积层厚度](http://www.yndxxb.ynu.edu.cn/yndxxbzrkxb/cn/article/doi/10.7540/j.ynu.20250036), *云南大学学报(自然科学版)*.
-56. John Somiah, **Jun Xie**, Sidao Ni, et al., (2025), [Seismotectonics of Ghana and adjacent regions in western Afrcia: a review](https://www.sciencedirect.com/science/article/pii/S2772467025000855), Earthquake Research Advances, online
+56. John Somiah, **Jun Xie**, Sidao Ni, et al., (2025), [Seismotectonics of Ghana and adjacent regions in western Afrcia: a review](https://www.sciencedirect.com/science/article/pii/S2772467025000855), *Earthquake Research Advances*, 100442.
+57. Kaiteng Huang; Sidao Ni; **Jun Xie**, et al., (2026), [Fault Intersections Control the Extremely Shallow 2020 $M_W$ 5.1 Sparta, North Carolina, Earthquake Sequence](https://pubs.geoscienceworld.org/ssa/srl/article-abstract/97/2A/907/724609/Fault-Intersections-Control-the-Extremely-Shallow), *Seismological Research Letters* (2026) 97 (2A): 907–917.
 
 ## 其他链接
 [Google scholar](https://scholar.google.com/citations?user=HlONCtkAAAAJ&hl=en)，[ResearchGate](https://www.researchgate.net/profile/Jun_Xie6)
